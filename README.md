@@ -1,16 +1,38 @@
 # Steven huang
 
-**Agent systems · Evaluation · Open source**
+**Agent systems · Evaluation · Multimodal interaction**
 
 **English** · [简体中文](./README.zh-CN.md)
 
-I'm a Computer Science master's student at **The University of Hong Kong**, working on agent evaluation, tool-use reliability, and developer tooling.
+I'm a Computer Science master's student at **The University of Hong Kong**. I work on self-improving agents for quantitative research, agent harnesses and evaluation, and real-time multimodal interaction.
 
 I build [skillfit](https://github.com/remote-controlled-man/skillfit) and contribute fixes and features to open-source projects across the agent ecosystem.
 
+## Experience
+
+### Ant Group · Agent Optimization Algorithm Intern
+
+*AI for quantitative research · Jul 2026–present*
+
+- **End-to-end quantitative research loop.** Own the full workflow from a fixed library of 26,000+ factors to strategy generation, controlled execution, backtesting, and feedback-driven iteration. Integrated four search paradigms under a shared execution and evaluation protocol.
+- **Trustworthy evaluation.** Use independent recomputation, bootstrap analysis, and counterfactual replay to check robustness and identify inflated results caused by backtest selection. Make experiments traceable and reproducible through recorded decisions, frozen configurations, and isolated parallel runs.
+- **Current research.** Extend the strategy-improvement loop toward automated factor discovery, exploring how self-improving agents can propose and validate new factors for quantitative research.
+
+### Cybopal · Agent Algorithm Intern
+
+*Agent evaluation, harnesses & multimodal interaction · Mar–Jun 2026*
+
+- **Evaluation design.** Designed evaluation and automated scoring for instruction understanding, tool selection, and unintended activations. Built a 1,160-sample closed-set voice-command suite with a 99.2% overall pass rate in offline evaluation.
+- **Harness design.** Designed model adapters, context and memory, tool registration, and runtime tracing. Independently built a layered robotic-arm MCP system shared by real hardware and simulation, with parameter validation, motion interlocks, and a stop–recover–home execution-recovery loop.
+- **Interaction Model research and experiments.** Deployed, reproduced, and evaluated full-duplex, end-to-end multimodal models, and worked on interaction data and model design research. Studied continuous perception, turn-taking, and interruption handling, comparing latency, stability, error recovery, and tool-call control with ASR–LLM–TTS cascades.
+
+**Kuaishou · Backend Development Intern · Aug–Nov 2024**
+
+Built asynchronous multimedia evaluation services and automated data validation and regression workflows, reducing time per regression run by 60%.
+
 ## Open-source contributions
 
-**21 merged PRs across 8 upstream projects.** All 8 projects are listed below; expand the full list for every PR.
+**21 merged PRs across 8 upstream projects.** Selected contributions are highlighted below; expand the full list for all 21 PRs.
 
 | Project · Stars | My merged PRs | Selected contribution |
 | :--- | :---: | :--- |
@@ -21,7 +43,6 @@ I build [skillfit](https://github.com/remote-controlled-man/skillfit) and contri
 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher)<br>[![GPT Researcher stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher/stargazers) | **[2](https://github.com/assafelovic/gpt-researcher/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed corrupted context when combining source URLs with complementary web research. [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor)<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=social)](https://github.com/HKUDS/DeepTutor/stargazers) | **[1](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Restored vision-capability detection for Gemini model IDs with a resource prefix. [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
 | [PR-Agent](https://github.com/The-PR-Agent/pr-agent)<br>[![PR-Agent stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social)](https://github.com/The-PR-Agent/pr-agent/stargazers) | **[1](https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed changelog publishing when the target file does not yet exist. [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
-| [Agent-For-Exam](https://github.com/1firecracker/Agent-For-Exam)<br>[![Agent-For-Exam stars](https://img.shields.io/github/stars/1firecracker/Agent-For-Exam?style=social)](https://github.com/1firecracker/Agent-For-Exam/stargazers) | **[2](https://github.com/1firecracker/Agent-For-Exam/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Improved Android settings dialogs, PPT touch controls, and styles for teleported dialogs. [#14](https://github.com/1firecracker/Agent-For-Exam/pull/14) · [#15](https://github.com/1firecracker/Agent-For-Exam/pull/15) |
 
 <sub>PR counts verified on 2026-10-03. Star badges show upstream repository stars and refresh via Shields.io.</sub>
 
@@ -81,11 +102,5 @@ I build [skillfit](https://github.com/remote-controlled-man/skillfit) and contri
 
 - **[skillfit](https://github.com/remote-controlled-man/skillfit)** — A CLI to test whether Skills, rules files, and MCP configurations improve a coding agent on your tasks. Uses paired experiments and verifiers to compare quality, cost, and uncertainty.
 - **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — Chinese learning notes on context and memory in six agent systems, grounded in source code and accompanied by a learning site.
-
-## Experience
-
-- **Ant Group** · Agent Optimization Algorithm Intern · 2026 — Experiment orchestration, strategy evaluation, and verifiers.
-- **Cybopal** · Agent Algorithm Intern · 2026 — Robotic-arm MCP integration, voice-command agents, and execution recovery.
-- **Kuaishou** · Backend Development Intern · 2024 — Async data processing and automated multimedia evaluation.
 
 Also interested in context and memory, small-model post-training, and learning from agent failure traces.
