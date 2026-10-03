@@ -4,7 +4,7 @@
 
 我在香港大学攻读计算机硕士，关注自进化 Agent、Agent 评测与实时多模态交互。目前在蚂蚁集团实习，负责从因子库到策略生成、回测的 AI 量化研究链路，探索自进化因子挖掘；此前在 Cybopal（细胞壁科技）研究 Agent Harness、评测及全双工端到端多模态交互模型，也曾在快手从事多媒体评测与后端开发。
 
-## 代表项目
+## 项目与笔记
 
 ### [skillfit](https://github.com/remote-controlled-man/skillfit)
 
@@ -14,11 +14,7 @@
 
 ### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
 
-我整理的 Agent 上下文与记忆学习指南，基于源码对照分析六个系统，解释上下文组装、压缩、记忆存储与检索。配套中文学习站提供横向比较和源码证据，方便从概念一路读到实现。
-
-[在线阅读](https://remote-controlled-man.github.io/agent-context-memory-guide/) · [源码分析笔记](https://github.com/remote-controlled-man/agent-context-memory-guide/tree/main/docs)
-
-<a href="https://remote-controlled-man.github.io/agent-context-memory-guide/compare.html"><img src="./assets/agent-memory-guide.jpg" alt="Agent Context & Memory Guide 学习站：六个 Agent 系统的横向对照" width="720"></a>
+早期整理的源码阅读笔记，记录六个 Agent 系统当时的上下文与记忆机制。[在线阅读](https://remote-controlled-man.github.io/agent-context-memory-guide/)
 
 ## 开源贡献
 
