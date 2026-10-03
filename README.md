@@ -1,33 +1,29 @@
 # Steven huang
 
-**Agent systems · Evaluation · Multimodal interaction**
-
 **English** · [简体中文](./README.zh-CN.md)
 
-I'm a Computer Science master's student at **The University of Hong Kong**, interested in **self-improving agents, agent harnesses and evaluation, and real-time multimodal interaction**. As an intern at **Ant Group**, I own the quantitative research workflow from a factor library to strategy generation and backtesting, and explore self-improving loops for factor discovery. Previously, I interned at **Cybopal**, working on agent evaluation, harness design, and full-duplex, end-to-end multimodal Interaction Models, and at **Kuaishou**, working on multimedia evaluation and backend development. I also build [skillfit](https://github.com/remote-controlled-man/skillfit) and contribute to open-source projects across the agent ecosystem.
+I'm pursuing a master's in Computer Science at the University of Hong Kong, with interests in self-improving agents, agent evaluation, and real-time multimodal interaction. As an intern at Ant Group, I own the AI quantitative research workflow from factor libraries to strategy generation and backtesting, while exploring self-improving factor discovery. My previous internships involved agent harnesses, evaluation, and full-duplex, end-to-end multimodal interaction models at Cybopal, and multimedia evaluation and backend development at Kuaishou.
 
 ## Open-source contributions
 
-**21 merged PRs across 8 upstream projects.** Selected contributions are highlighted below; expand the full list for all 21 PRs.
+**21 merged PRs across 8 upstream projects.** Selected contributions below; expand the full record for every PR.
 
-| Project · Stars | What it does | My merged PRs | Contribution area & examples |
-| :--- | :--- | :---: | :--- |
-| [AgentField](https://github.com/Agent-Field/agentfield)<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=social)](https://github.com/Agent-Field/agentfield/stargazers) | Backend framework for AI agents<br><sub>Agent services · Runtime</sub> | **[4](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **SDK · Harness**<br>Added TypeScript provider preflight checks and kept Python rate-limiter jitter from changing the global random state. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) · [#1078](https://github.com/Agent-Field/agentfield/pull/1078) |
-| [AxonHub](https://github.com/looplj/axonhub)<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=social)](https://github.com/looplj/axonhub/stargazers) | LLM API gateway<br><sub>Model routing · API compatibility</sub> | **[9](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **API adapters · Streaming · Tools**<br>Preserved tool restrictions, chat-stream fields, and citations across API transformations. [#2519](https://github.com/looplj/axonhub/pull/2519) · [#2561](https://github.com/looplj/axonhub/pull/2561) · [#2572](https://github.com/looplj/axonhub/pull/2572) |
-| [MCP-Use](https://github.com/mcp-use/mcp-use)<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=social)](https://github.com/mcp-use/mcp-use/stargazers) | Full-stack MCP framework<br><sub>MCP Apps · MCP Servers</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **Client · MCP App rendering**<br>Fixed UTF-8 HTML decoding for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
-| [CopilotKit](https://github.com/CopilotKit/CopilotKit)<br>[![CopilotKit stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social)](https://github.com/CopilotKit/CopilotKit/stargazers) | Frontend stack for agents<br><sub>In-app assistants · Generative UI</sub> | **[1](https://github.com/CopilotKit/CopilotKit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **Runtime · HTTP routing**<br>Fixed base-path boundary checks to reject unintended endpoint matches. [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher)<br>[![GPT Researcher stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher/stargazers) | Autonomous research agent<br><sub>Source retrieval · Deep research</sub> | **[2](https://github.com/assafelovic/gpt-researcher/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **Research context · Retrievers**<br>Fixed complementary-source merging and fallback after empty normalization. [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) · [#2105](https://github.com/assafelovic/gpt-researcher/pull/2105) |
-| [DeepTutor](https://github.com/HKUDS/DeepTutor)<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=social)](https://github.com/HKUDS/DeepTutor/stargazers) | Personalized AI tutor<br><sub>Tutoring · Learning assistance</sub> | **[1](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **Model adaptation · Vision**<br>Restored vision detection for Gemini model IDs with a resource prefix. [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
-| [PR-Agent](https://github.com/The-PR-Agent/pr-agent)<br>[![PR-Agent stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social)](https://github.com/The-PR-Agent/pr-agent/stargazers) | AI pull-request reviewer<br><sub>Code review · PR automation</sub> | **[1](https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | **GitHub integration · Changelog**<br>Created missing changelog files when publishing updates. [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
-
-<sub>PR counts verified on 2026-10-03. Star badges show upstream repository stars and refresh via Shields.io.</sub>
+| Project | PRs | Selected contributions |
+| :--- | :---: | :--- |
+| [AxonHub](https://github.com/looplj/axonhub) [![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=555)](https://github.com/looplj/axonhub/stargazers)<br>LLM API gateway | [9](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Fixed tool-call restrictions and dropped streaming fields across API conversions. [#2561](https://github.com/looplj/axonhub/pull/2561) |
+| [AgentField](https://github.com/Agent-Field/agentfield) [![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=555)](https://github.com/Agent-Field/agentfield/stargazers)<br>Agent backend framework | [4](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Added provider preflight checks to the TypeScript harness; fixed configuration parsing and random-state isolation in the Python SDK. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) |
+| [MCP-Use](https://github.com/mcp-use/mcp-use) [![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=555)](https://github.com/mcp-use/mcp-use/stargazers)<br>MCP application framework | [1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Fixed UTF-8 decoding of HTML resources in the client so MCP Apps render Chinese text and emoji correctly. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) [![CopilotKit stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=flat&label=%E2%98%85&color=555)](https://github.com/CopilotKit/CopilotKit/stargazers)<br>Frontend framework for agents | [1](https://github.com/CopilotKit/CopilotKit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Fixed route-boundary checks in the runtime to reject requests with similar path prefixes. [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) [![GPT Researcher stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&label=%E2%98%85&color=555)](https://github.com/assafelovic/gpt-researcher/stargazers)<br>Autonomous research agent | [2](https://github.com/assafelovic/gpt-researcher/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Fixed research-context merging and fallback for empty retrieval results, preserving complementary sources. [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) [![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=555)](https://github.com/HKUDS/DeepTutor/stargazers)<br>Personalized AI tutor | [1](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Fixed vision-capability detection for Gemini model IDs with a resource prefix. [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
+| [PR-Agent](https://github.com/The-PR-Agent/pr-agent) [![PR-Agent stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat&label=%E2%98%85&color=555)](https://github.com/The-PR-Agent/pr-agent/stargazers)<br>AI code review tool | [1](https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man) | Updated GitHub changelog publishing to create the target file when it does not exist. [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
 
 <details>
 <summary>View all 21 merged PRs across 8 projects</summary>
 
-**[AgentField](https://github.com/Agent-Field/agentfield) · 4 merged**
+PR counts verified on 2026-10-03. Star badges show dynamically updated upstream repository stars.
 
-Backend framework for AI agents · Contributions: SDK · Harness
+**[AgentField](https://github.com/Agent-Field/agentfield) · 4 merged**
 
 - [#1082](https://github.com/Agent-Field/agentfield/pull/1082) — Aligned AGENTFIELD_ASYNC boolean parsing with the repository's environment-variable conventions.
 - [#1078](https://github.com/Agent-Field/agentfield/pull/1078) — Prevented rate-limiter jitter from changing the global random state.
@@ -35,8 +31,6 @@ Backend framework for AI agents · Contributions: SDK · Harness
 - [#1069](https://github.com/Agent-Field/agentfield/pull/1069) — Added provider availability checks before TypeScript agent harness runs.
 
 **[AxonHub](https://github.com/looplj/axonhub) · 9 merged**
-
-LLM API gateway · Contributions: API adapters · Streaming · Tools
 
 - [#2572](https://github.com/looplj/axonhub/pull/2572) — Placed aggregated citations in the top-level response field without leaking transformer metadata.
 - [#2561](https://github.com/looplj/axonhub/pull/2561) — Preserved refusal, audio, logprobs, and reasoning when aggregating chat streams.
@@ -50,47 +44,35 @@ LLM API gateway · Contributions: API adapters · Streaming · Tools
 
 **[MCP-Use](https://github.com/mcp-use/mcp-use) · 1 merged**
 
-Full-stack MCP framework · Contributions: Client · MCP App rendering
-
 - [#2632](https://github.com/mcp-use/mcp-use/pull/2632) — Decoded MCP App HTML blobs as UTF-8 so Chinese text and emoji render correctly.
 
 **[CopilotKit](https://github.com/CopilotKit/CopilotKit) · 1 merged**
 
-Frontend stack for agents · Contributions: Runtime · HTTP routing
-
 - [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) — Enforced base-path segment boundaries in single-route runtime matching.
 
 **[GPT Researcher](https://github.com/assafelovic/gpt-researcher) · 2 merged**
-
-Autonomous research agent · Contributions: Research context · Retrievers
 
 - [#2105](https://github.com/assafelovic/gpt-researcher/pull/2105) — Fell back when retriever content became blank after normalization.
 - [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) — Preserved complementary web-research context when combining sources.
 
 **[DeepTutor](https://github.com/HKUDS/DeepTutor) · 1 merged**
 
-Personalized AI tutor · Contributions: Model adaptation · Vision
-
 - [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) — Recognized vision support in Gemini model IDs with a models/ prefix.
 
 **[PR-Agent](https://github.com/The-PR-Agent/pr-agent) · 1 merged**
-
-AI pull-request reviewer · Contributions: GitHub integration · Changelog
 
 - [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) — Created a missing changelog file when publishing generated updates.
 
 **[Agent-For-Exam](https://github.com/1firecracker/Agent-For-Exam) · 2 merged**
 
-Multi-agent exam preparation assistant · Contributions: Mobile UI · Dialogs · Touch controls
-
 - [#15](https://github.com/1firecracker/Agent-For-Exam/pull/15) — Applied global styles to teleported settings dialogs on mobile.
 - [#14](https://github.com/1firecracker/Agent-For-Exam/pull/14) — Adapted the LLM settings dialog and PPT touch controls for Android.
 
-</details>
-
 [View the full history on GitHub →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man+-user%3Aremote-controlled-man&type=pullrequests)
+
+</details>
 
 ## Projects & writing
 
-- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — A CLI to test whether Skills, rules files, and MCP configurations improve a coding agent on your tasks. Uses paired experiments and verifiers to compare quality, cost, and uncertainty.
-- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — Chinese learning notes on context and memory in six agent systems, grounded in source code and accompanied by a learning site.
+- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — Paired experiments to evaluate how Skills, rules files, and MCP configurations affect coding-agent quality and cost.
+- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — Source-based notes on context and memory in six agent systems, with Chinese learning materials and a companion site.
