@@ -1,82 +1,38 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="Build. Evaluate. Improve. — Steven Huang, Agent Systems" width="100%" />
-</p>
+# Steven huang
 
-<p align="center">
-  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a>
-</p>
+**Agent systems · Evaluation · Open source**
 
-# Hi, I'm Steven Huang · 黄思迪
+**English** · [简体中文](./README.zh-CN.md)
 
-**Agent systems · Evaluation · LLM post-training**
+I'm a Computer Science master's student at **The University of Hong Kong**, working on agent evaluation, tool-use reliability, and developer tooling.
 
-I'm a Computer Science master's student at **The University of Hong Kong**. I build agents that use tools, learn from failures, and can be evaluated beyond a convincing demo.
+I build [skillfit](https://github.com/remote-controlled-man/skillfit) and contribute fixes and features to open-source projects across the agent ecosystem.
 
-My work spans agent harnesses, embodied tool execution, retrieval, and small-model post-training. I care about making execution observable, failures reproducible, and improvements measurable.
+## Open-source contributions
 
-[GitHub](https://github.com/remote-controlled-man) · [Projects](#selected-work) · [Experience](#experience) · [中文介绍](./README.zh-CN.md)
+Selected contributions **merged upstream**:
 
-## What I work on
+| Project | What I contributed | PR |
+| :--- | :--- | :--- |
+| [AgentField](https://github.com/Agent-Field/agentfield) | Added provider availability checks and actionable errors to the TypeScript agent harness. | [#1069](https://github.com/Agent-Field/agentfield/pull/1069) |
+| [AxonHub](https://github.com/looplj/axonhub) | Preserved allowed-tool restrictions when forwarding Chat Completions requests. | [#2519](https://github.com/looplj/axonhub/pull/2519) |
+| [MCP-Use](https://github.com/mcp-use/mcp-use) | Fixed UTF-8 decoding so MCP App HTML renders Chinese text and emoji correctly. | [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | Fixed runtime routing that incorrectly accepted paths sharing only a text prefix. | [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | Fixed corrupted context when combining source URLs with complementary web research. | [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | Restored vision-capability detection for Gemini model IDs with a resource prefix. | [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
+| [PR-Agent](https://github.com/The-PR-Agent/pr-agent) | Fixed changelog publishing when the target file does not yet exist. | [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
 
-- **Reliable execution** — tool contracts, context and memory, runtime tracing, and recovery when things go wrong.
-- **Evidence-driven evaluation** — task environments, deterministic verifiers, failure analysis, and controlled comparisons.
-- **Efficient adaptation** — SFT / QLoRA, training data from failure traces, and routing between small and larger models.
+[More merged contributions →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man+-user%3Aremote-controlled-man&type=pullrequests)
 
-## Selected work
+## Projects & writing
 
-### [skillfit](https://github.com/remote-controlled-man/skillfit)
-
-**Do agent configurations actually help? Measure them.**
-
-An open-source CLI for evaluating Skills, rules files, and MCP configurations on a user's own tasks. It pairs baseline and treatment runs, checks outcomes with verifiers, and reports quality, cost, and uncertainty. It also measures whether an agent actually invokes an installed Skill.
-
-`TypeScript` `Agent Evals` `MCP` `Paired Experiments`
-
-### DeviceAgent Arena
-
-**Train and evaluate tool use through multi-step tasks and failure recovery.**
-
-A personal project combining a task environment, fault injection, and scoring against both final state and execution trace. I fine-tuned Qwen3-1.7B with QLoRA and built a routing pipeline using FunctionGemma-270M for well-defined steps, with Qwen handling validation failures.
-
-On **36 held-out tasks excluded from training and repair**, strict success improved from **22/36 to 31/36**; Qwen calls fell **34.1%** and P95 latency fell **17.6%**. Safety-check passes remained **34/36**. These results describe this task set.
-
-`Tool Use` `QLoRA` `Failure Analysis` `Model Routing`
-
-### ExamPilot
-
-**A course assistant whose answers lead back to the source page.**
-
-A personal Agentic RAG project using LangGraph and LightRAG to orchestrate retrieval and tool use over course materials. It combines vector retrieval with a knowledge graph, maps evidence back to document pages, and streams retrieval and tool events for inspection and replay.
-
-`LangGraph` `LightRAG` `Page-level Citations` `RAG`
-
-### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
-
-**Understand how agents assemble context and retain memory.**
-
-Chinese learning notes comparing six agent projects through source-code reading, with implementation references and an accompanying learning site. The focus is on how history, summarization, retrieval, and persistent memory fit together.
-
-`Context Engineering` `Memory` `Source-code Reading`
+- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — A CLI to test whether Skills, rules files, and MCP configurations improve a coding agent on your tasks. Uses paired experiments and verifiers to compare quality, cost, and uncertainty.
+- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — Chinese learning notes on context and memory in six agent systems, grounded in source code and accompanied by a learning site.
 
 ## Experience
 
-| Where | Role | Focus |
-| :--- | :--- | :--- |
-| **Ant Group** · Jul 2026–present | Agent Optimization Algorithm Intern | Strategy-generation and evaluation loops, verifiers, and reproducible agent experiments |
-| **Cybopal / 细胞壁科技** · Mar–Jun 2026 | Agent Algorithm Intern | Embodied tool execution, robotic-arm MCP integration, voice-command agents, and recovery |
-| **Kuaishou** · Aug–Nov 2024 | Backend Development Intern | Async data processing and automated multimedia evaluation workflows |
+- **Ant Group** · Agent Optimization Algorithm Intern · 2026 — Experiment orchestration, strategy evaluation, and verifiers.
+- **Cybopal** · Agent Algorithm Intern · 2026 — Robotic-arm MCP integration, voice-command agents, and execution recovery.
+- **Kuaishou** · Backend Development Intern · 2024 — Async data processing and automated multimedia evaluation.
 
-## Toolkit
-
-**Engineering** — Python, TypeScript, Rust, Asyncio, FastAPI, Tokio, Docker, CI/CD  
-**Agent systems** — MCP, tool calling, JSON Schema, tracing, context and memory  
-**Models & retrieval** — SFT, LoRA / QLoRA, LangGraph, LightRAG
-
-## Education
-
-**The University of Hong Kong** — Master's studies in Computer Science  
-**Beijing University of Technology** — Bachelor's degree in Software Engineering
-
----
-
-I'm happy to exchange ideas about agent evaluation, tool use, and open-source developer tooling. [Explore my repositories →](https://github.com/remote-controlled-man?tab=repositories)
+Also interested in context and memory, small-model post-training, and learning from agent failure traces.

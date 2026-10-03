@@ -1,82 +1,38 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="构建、评测、改进 — 黄思迪 Steven，Agent 系统" width="100%" />
-</p>
+# Steven huang
 
-<p align="center">
-  <a href="./README.md">English</a> · <strong>简体中文</strong>
-</p>
+**Agent 系统 · 智能体评测 · 开源贡献**
 
-# 你好，我是黄思迪 Steven
+[English](./README.md) · **简体中文**
 
-**Agent 系统工程 · 智能体评测 · 大模型后训练**
+我目前在**香港大学**攻读计算机硕士，主要关注 Agent 评测、工具调用的可靠性和开发者工具。
 
-我目前在**香港大学**攻读计算机硕士，关注能调用工具、从失败中改进，并经得起系统评测的 Agent。
+我在开发 [skillfit](https://github.com/remote-controlled-man/skillfit)，也参与 Agent 生态中的开源项目，提交问题修复与功能改进。
 
-我的实践涵盖 Agent Harness、具身工具执行、检索增强和小模型后训练。我希望让执行过程可观测、失败可复现，让每一次改进都有证据支撑。
+## 开源贡献
 
-[GitHub](https://github.com/remote-controlled-man) · [代表项目](#代表项目) · [实习经历](#实习经历) · [English](./README.md)
+部分**已合并到上游**的贡献：
 
-## 我关注的方向
+| 项目 | 我的贡献 | PR |
+| :--- | :--- | :--- |
+| [AgentField](https://github.com/Agent-Field/agentfield) | 为 TypeScript Agent Harness 增加运行前的 Provider 可用性检查和明确的错误提示。 | [#1069](https://github.com/Agent-Field/agentfield/pull/1069) |
+| [AxonHub](https://github.com/looplj/axonhub) | 修复 Chat Completions 请求转发时允许调用的工具范围丢失的问题。 | [#2519](https://github.com/looplj/axonhub/pull/2519) |
+| [MCP-Use](https://github.com/mcp-use/mcp-use) | 修复 MCP App HTML 的 UTF-8 解码，让中文和 Emoji 正确显示。 | [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 修复 Runtime 路由误匹配，避免仅前缀相同的路径被当作有效端点。 | [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | 修复来源 URL 与补充网页检索结果合并时，上下文文本被破坏的问题。 | [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | 修复带资源前缀的 Gemini 模型 ID 无法正确识别视觉能力的问题。 | [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
+| [PR-Agent](https://github.com/The-PR-Agent/pr-agent) | 修复目标文件尚不存在时，无法提交自动生成的更新日志的问题。 | [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
 
-- **可靠执行**：工具接口约束、上下文与记忆、运行时追踪，以及出错后的恢复机制。
-- **有证据的评测**：任务环境、确定性校验、失败分析和受控对比实验。
-- **高效适配**：SFT / QLoRA、从失败轨迹构造训练数据，以及大小模型之间的任务路由。
+[查看更多已合并贡献 →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man+-user%3Aremote-controlled-man&type=pullrequests)
 
-## 代表项目
+## 项目与分享
 
-### [skillfit](https://github.com/remote-controlled-man/skillfit)
-
-**Agent 的配置有没有用，让实验来回答。**
-
-一个开源命令行工具，用真实任务评估 Skills、规则文件和 MCP 配置的效果。通过基线与实验组配对运行、结果校验和统计分析，报告质量、成本与不确定性；也衡量 Agent 是否真正触发了已安装的 Skill。
-
-`TypeScript` `Agent 评测` `MCP` `配对实验`
-
-### DeviceAgent Arena
-
-**围绕多步任务与故障恢复，训练和评测工具调用能力。**
-
-个人项目：搭建任务环境与故障注入机制，同时根据最终状态和执行轨迹判分。使用 QLoRA 微调 Qwen3-1.7B，并让 FunctionGemma-270M 处理规则明确的步骤，校验失败时交给 Qwen 处理。
-
-在 **36 个未参与训练或修复的留出任务**上，严格成功数从 **22/36 提升至 31/36**，Qwen 调用减少 **34.1%**，P95 延迟降低 **17.6%**；安全执行通过数保持 **34/36**。这些结果对应这一任务集。
-
-`工具调用` `QLoRA` `失败分析` `模型路由`
-
-### ExamPilot
-
-**让课程助教的每个有据回答，都能回到原文页码。**
-
-个人 Agentic RAG 项目：使用 LangGraph 与 LightRAG 编排课程资料检索和工具调用，融合向量检索与知识图谱，将证据映射回文档页码，并以流式事件展示检索、工具调用和生成过程，便于观察与回放。
-
-`LangGraph` `LightRAG` `页级引用` `RAG`
-
-### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
-
-**从源码出发，理解 Agent 如何组织上下文、保存记忆。**
-
-一套中文学习资料，通过源码阅读对比六个 Agent 项目的实现，提供代码位置参考和配套学习站，梳理历史记录、摘要压缩、检索与持久记忆之间的关系。
-
-`上下文工程` `记忆系统` `源码阅读`
+- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — 用于检验 Skills、规则文件和 MCP 配置能否改善 Coding Agent 任务表现的命令行工具。通过配对实验和结果校验，对比质量、成本与不确定性。
+- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — 基于源码阅读，梳理六个 Agent 系统的上下文与记忆机制，提供中文学习笔记和配套学习站。
 
 ## 实习经历
 
-| 团队 | 岗位 | 主要方向 |
-| :--- | :--- | :--- |
-| **蚂蚁集团** · 2026.07–至今 | 智能体优化算法实习生 | 策略生成与评测闭环、Verifier、可复现的 Agent 实验 |
-| **细胞壁科技 / Cybopal** · 2026.03–06 | Agent 算法实习生 | 具身工具执行、机械臂 MCP 接入、语音指令 Agent 与故障恢复 |
-| **快手** · 2024.08–11 | 后端开发实习生 | 异步数据处理、多媒体自动化评测流程 |
+- **蚂蚁集团** · 智能体优化算法实习生 · 2026 — 实验编排、策略评测与 Verifier。
+- **Cybopal / 细胞壁科技** · Agent 算法实习生 · 2026 — 机械臂 MCP 接入、语音指令 Agent 与执行恢复。
+- **快手** · 后端开发实习生 · 2024 — 异步数据处理与多媒体自动化评测。
 
-## 常用技术
-
-**工程开发** — Python、TypeScript、Rust、Asyncio、FastAPI、Tokio、Docker、CI/CD  
-**Agent 系统** — MCP、Tool Calling、JSON Schema、Tracing、Context / Memory  
-**模型与检索** — SFT、LoRA / QLoRA、LangGraph、LightRAG
-
-## 教育背景
-
-**香港大学** — 计算机硕士在读  
-**北京工业大学** — 软件工程学士
-
----
-
-欢迎交流 Agent 评测、工具调用和开源开发工具。[浏览我的仓库 →](https://github.com/remote-controlled-man?tab=repositories)
+也关注上下文与记忆、小模型后训练，以及如何从 Agent 的失败轨迹中学习。
