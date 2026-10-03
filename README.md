@@ -10,25 +10,15 @@ I build [skillfit](https://github.com/remote-controlled-man/skillfit) and contri
 
 ## Experience
 
-### Ant Group · Agent Optimization Algorithm Intern
+**Ant Group · Agent Optimization Algorithm Intern · 2026–present**
 
-*AI for quantitative research · Jul 2026–present*
+AI for quantitative research: own the workflow from a factor library to strategy generation, backtesting, and feedback, while researching self-improving agents for strategy optimization and factor discovery.
 
-- **End-to-end quantitative research loop.** Own the full workflow from a fixed library of 26,000+ factors to strategy generation, controlled execution, backtesting, and feedback-driven iteration. Integrated four search paradigms under a shared execution and evaluation protocol.
-- **Trustworthy evaluation.** Use independent recomputation, bootstrap analysis, and counterfactual replay to check robustness and identify inflated results caused by backtest selection. Make experiments traceable and reproducible through recorded decisions, frozen configurations, and isolated parallel runs.
-- **Current research.** Extend the strategy-improvement loop toward automated factor discovery, exploring how self-improving agents can propose and validate new factors for quantitative research.
+**Cybopal · Agent Algorithm Intern · 2026**
 
-### Cybopal · Agent Algorithm Intern
+Agent evaluation and harness design, alongside research on full-duplex, end-to-end multimodal interaction models through deployment, reproduction, evaluation, and model design studies.
 
-*Agent evaluation, harnesses & multimodal interaction · Mar–Jun 2026*
-
-- **Evaluation design.** Designed evaluation and automated scoring for instruction understanding, tool selection, and unintended activations. Built a 1,160-sample closed-set voice-command suite with a 99.2% overall pass rate in offline evaluation.
-- **Harness design.** Designed model adapters, context and memory, tool registration, and runtime tracing. Independently built a layered robotic-arm MCP system shared by real hardware and simulation, with parameter validation, motion interlocks, and a stop–recover–home execution-recovery loop.
-- **Interaction Model research and experiments.** Deployed, reproduced, and evaluated full-duplex, end-to-end multimodal models, and worked on interaction data and model design research. Studied continuous perception, turn-taking, and interruption handling, comparing latency, stability, error recovery, and tool-call control with ASR–LLM–TTS cascades.
-
-**Kuaishou · Backend Development Intern · Aug–Nov 2024**
-
-Built asynchronous multimedia evaluation services and automated data validation and regression workflows, reducing time per regression run by 60%.
+**Kuaishou · Backend Development Intern · 2024** — Multimedia evaluation and automated data processing.
 
 ## Open-source contributions
 
