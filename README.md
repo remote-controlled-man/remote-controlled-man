@@ -12,9 +12,7 @@ A CLI I'm building to measure whether Skills, rules files, and MCP configuration
 
 [Reproduce an MCP-Use case](https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md) · [Evaluation protocol](https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md)
 
-### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
-
-Earlier source-reading notes on context and memory in six agent systems, reflecting the versions studied at the time. [Read online](https://remote-controlled-man.github.io/agent-context-memory-guide/)
+Earlier reading notes: [Agent Context & Memory Guide](https://remote-controlled-man.github.io/agent-context-memory-guide/) — context and memory in six agent systems.
 
 ## Open-source contributions
 

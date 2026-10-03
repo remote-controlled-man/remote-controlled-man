@@ -12,9 +12,7 @@
 
 [复现 MCP-Use 案例](https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md) · [评测方法](https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md)
 
-### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
-
-早期整理的源码阅读笔记，记录六个 Agent 系统当时的上下文与记忆机制。[在线阅读](https://remote-controlled-man.github.io/agent-context-memory-guide/)
+早期阅读笔记：[Agent Context & Memory Guide](https://remote-controlled-man.github.io/agent-context-memory-guide/)（六个 Agent 系统的上下文与记忆机制）。
 
 ## 开源贡献
 
