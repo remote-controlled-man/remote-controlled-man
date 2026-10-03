@@ -4,6 +4,22 @@
 
 我在香港大学攻读计算机硕士，关注自进化 Agent、Agent 评测与实时多模态交互。目前在蚂蚁集团实习，负责从因子库到策略生成、回测的 AI 量化研究链路，探索自进化因子挖掘；此前在 Cybopal（细胞壁科技）研究 Agent Harness、评测及全双工端到端多模态交互模型，也曾在快手从事多媒体评测与后端开发。
 
+## 代表项目
+
+### [skillfit](https://github.com/remote-controlled-man/skillfit)
+
+我在开发的 Coding Agent 配置评测工具，用来检验 Skill、规则文件和 MCP 配置是否真的改善任务表现。通过相同任务的配对实验，比较结果质量、触发率与成本，并保留结果校验和不确定性信息。
+
+[复现 MCP-Use 案例](https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md) · [评测方法](https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md)
+
+### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
+
+我整理的 Agent 上下文与记忆学习指南，基于源码对照分析六个系统，解释上下文组装、压缩、记忆存储与检索。配套中文学习站提供横向比较和源码证据，方便从概念一路读到实现。
+
+[在线阅读](https://remote-controlled-man.github.io/agent-context-memory-guide/) · [源码分析笔记](https://github.com/remote-controlled-man/agent-context-memory-guide/tree/main/docs)
+
+<a href="https://remote-controlled-man.github.io/agent-context-memory-guide/compare.html"><img src="./assets/agent-memory-guide.jpg" alt="Agent Context & Memory Guide 学习站：六个 Agent 系统的横向对照" width="720"></a>
+
 ## 开源贡献
 
 **21 个已合并 PR，覆盖 8 个开源项目。** 以下为精选贡献，完整记录见下方折叠列表。
@@ -72,7 +88,6 @@
 
 </details>
 
-## 项目与分享
+## 联系
 
-- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — 用配对实验评估 Skills、规则文件与 MCP 配置对 Coding Agent 质量和成本的影响。
-- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — 基于源码梳理六个 Agent 系统的上下文与记忆机制，附中文笔记和学习站。
+[LinkedIn](https://www.linkedin.com/in/steven-sidi-huang/)

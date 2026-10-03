@@ -4,6 +4,22 @@
 
 I'm pursuing a master's in Computer Science at the University of Hong Kong, with interests in self-improving agents, agent evaluation, and real-time multimodal interaction. As an intern at Ant Group, I own the AI quantitative research workflow from factor libraries to strategy generation and backtesting, while exploring self-improving factor discovery. My previous internships involved agent harnesses, evaluation, and full-duplex, end-to-end multimodal interaction models at Cybopal, and multimedia evaluation and backend development at Kuaishou.
 
+## Selected projects
+
+### [skillfit](https://github.com/remote-controlled-man/skillfit)
+
+A CLI I'm building to measure whether Skills, rules files, and MCP configurations actually improve a coding agent on your tasks. It runs paired experiments on the same tasks, comparing quality, trigger behavior, and cost while preserving verification results and uncertainty.
+
+[Reproduce an MCP-Use case](https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md) · [Evaluation protocol](https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md)
+
+### [Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)
+
+My source-based guide to context and memory in six agent systems, covering context assembly, compression, memory storage, and retrieval. The companion learning site offers Chinese explanations, cross-project comparisons, and source references to connect concepts with implementation.
+
+[Read online](https://remote-controlled-man.github.io/agent-context-memory-guide/) · [Source analysis](https://github.com/remote-controlled-man/agent-context-memory-guide/tree/main/docs)
+
+<a href="https://remote-controlled-man.github.io/agent-context-memory-guide/compare.html"><img src="./assets/agent-memory-guide.jpg" alt="Chinese learning site comparing context and memory across six agent systems" width="720"></a>
+
 ## Open-source contributions
 
 **21 merged PRs across 8 upstream projects.** Selected contributions below; expand the full record for every PR.
@@ -72,7 +88,6 @@ PR counts verified on 2026-10-03. Star badges show dynamically updated upstream 
 
 </details>
 
-## Projects & writing
+## Contact
 
-- **[skillfit](https://github.com/remote-controlled-man/skillfit)** — Paired experiments to evaluate how Skills, rules files, and MCP configurations affect coding-agent quality and cost.
-- **[Agent Context & Memory Guide](https://github.com/remote-controlled-man/agent-context-memory-guide)** — Source-based notes on context and memory in six agent systems, with Chinese learning materials and a companion site.
+[LinkedIn](https://www.linkedin.com/in/steven-sidi-huang/)
