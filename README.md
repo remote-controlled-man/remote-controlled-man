@@ -2,7 +2,7 @@
 
 **English** · [简体中文](./README.zh-CN.md)
 
-I'm pursuing a master's in Computer Science at the University of Hong Kong, with interests in self-improving agents, agent evaluation, and real-time multimodal interaction. As an intern at Ant Group, I own the AI quantitative research workflow from factor libraries to strategy generation and backtesting, while exploring self-improving factor discovery. My previous internships involved agent harnesses, evaluation, and full-duplex, end-to-end multimodal interaction models at Cybopal, and multimedia evaluation and backend development at Kuaishou.
+I'm a master's student in Computer Science at the University of Hong Kong, currently interning at Ant Group on AI for quantitative research. I build agents that turn existing factors into trading strategies and backtest them, and I'm exploring how they can use backtesting feedback to discover new factors. Previously, I worked on agent evaluation, harnesses, and full-duplex multimodal interaction at Cybopal, and interned at Kuaishou.
 
 ## Projects & notes
 
