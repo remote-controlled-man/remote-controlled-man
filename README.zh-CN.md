@@ -2,7 +2,7 @@
 
 [English](./README.md) · **简体中文**
 
-我在香港大学读计算机硕士，目前在蚂蚁集团实习，做 AI + 量化。我负责让 Agent 从已有因子生成策略、跑回测，最近也在研究让它根据回测反馈挖掘新的因子。之前在细胞壁（Cybopal）做 Agent 评测、Harness 和全双工多模态交互研究，也在快手实习过。
+我在香港大学读计算机硕士，目前在[蚂蚁集团](https://www.antgroup.com/)实习，做 AI + 量化。我负责让 Agent 从已有因子生成策略、跑回测，最近也在研究让它根据回测反馈挖掘新的因子。之前在[细胞壁（Cybopal）](https://cybopal.com/)做 Agent 评测、Harness 和全双工多模态交互研究，也在[快手](https://www.kuaishou.com/)实习过。
 
 ## 项目与笔记
 
