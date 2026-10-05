@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-en-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-en-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-en-dark.svg"><img src="./assets/hero-en-light.svg" width="100%" alt="Steven huang — Agent harnesses, evaluation and self-improvement"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-harness-en-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-harness-en-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-harness-en-dark.svg"><img src="./assets/hero-harness-en-light.svg" width="100%" alt="Steven huang — Agent harnesses, evaluation and self-improvement"></picture>
 
 <p align="center">
   <a href="./README.zh-CN.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-language-en-dark.svg"><img src="./assets/button-language-en-light.svg" width="128" height="48" alt="简体中文"></picture></a>
