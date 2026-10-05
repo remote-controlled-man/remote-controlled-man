@@ -7,9 +7,10 @@
 
 <p align="center">
   <a href="./README.md">English</a> &nbsp; / &nbsp; <strong>简体中文</strong>
-  &nbsp; · &nbsp; <a href="#项目">项目</a>
-  &nbsp; · &nbsp; <a href="#开源贡献">开源贡献</a>
-  &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/steven-sidi-huang/">LinkedIn ↗</a>
+  <br>
+  <a href="#user-content-项目">项目</a>
+  &nbsp; · &nbsp; <a href="#user-content-开源贡献">开源贡献</a>
+  &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/steven-sidi-huang/">LinkedIn&nbsp;↗</a>
 </p>
 
 我在香港大学读计算机硕士，目前在[蚂蚁集团](https://www.antgroup.com/)实习，做 AI + 量化。我负责让 Agent 从已有因子生成策略、跑回测，最近也在研究让它根据回测反馈挖掘新的因子。之前在[细胞壁（Cybopal）](https://cybopal.com/)做 Agent 评测、Harness 和全双工多模态交互研究，也在[快手](https://www.kuaishou.com/)实习过。
@@ -20,7 +21,7 @@
 <tr><td>
 <p><sub>正在开发</sub></p>
 <h3><a href="https://github.com/remote-controlled-man/skillfit">skillfit ↗</a></h3>
-<p><strong>给 Coding Agent 换配置，真的会更好吗？</strong></p>
+<p><strong>评测 Coding Agent 配置的实际效果</strong></p>
 <p>我在开发的命令行评测工具，用相同任务的配对实验，比较 Skill、规则文件和 MCP 配置带来的质量、触发率与成本变化。保留校验结果和不确定性，方便检查每一次比较的依据。</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">复现案例 →</a> &nbsp; · &nbsp; <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md">评测方法</a></p>
 </td></tr>
@@ -32,15 +33,43 @@
 
 **21 个已合并 PR · 8 个上游项目** &nbsp; <sub>截至 2026-10-03</sub>
 
-| 项目 | 我参与的部分 |
-| :--- | :--- |
-| [AxonHub](https://github.com/looplj/axonhub)<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=555)](https://github.com/looplj/axonhub/stargazers) | <sub>LLM API 网关 · [9 个已合并 PR](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>修复 API 转换中的工具调用限制与流式字段丢失，完善协议兼容。 [#2561](https://github.com/looplj/axonhub/pull/2561) |
-| [AgentField](https://github.com/Agent-Field/agentfield)<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=555)](https://github.com/Agent-Field/agentfield/stargazers) | <sub>Agent 后端框架 · [4 个已合并 PR](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>为 TypeScript Harness 增加 Provider 预检，修复 Python SDK 的配置解析与随机状态隔离。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) |
-| [MCP-Use](https://github.com/mcp-use/mcp-use)<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=555)](https://github.com/mcp-use/mcp-use/stargazers) | <sub>MCP 应用框架 · [1 个已合并 PR](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>修复 HTML 资源的 UTF-8 解码，让 MCP App 正确显示中文和 Emoji。 [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
-| [CopilotKit](https://github.com/CopilotKit/CopilotKit)<br>[![CopilotKit stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=flat&label=%E2%98%85&color=555)](https://github.com/CopilotKit/CopilotKit/stargazers) | <sub>Agent 前端框架 · [1 个已合并 PR](https://github.com/CopilotKit/CopilotKit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>修复 Runtime 的路由边界判断，避免路径前缀相似的请求被误匹配。 [#7341](https://github.com/CopilotKit/CopilotKit/pull/7341) |
-| [GPT&nbsp;Researcher](https://github.com/assafelovic/gpt-researcher)<br>[![GPT Researcher stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&label=%E2%98%85&color=555)](https://github.com/assafelovic/gpt-researcher/stargazers) | <sub>自主研究 Agent · [2 个已合并 PR](https://github.com/assafelovic/gpt-researcher/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>修复研究上下文合并与空检索结果回退，保留补充检索内容。 [#2104](https://github.com/assafelovic/gpt-researcher/pull/2104) |
-| [DeepTutor](https://github.com/HKUDS/DeepTutor)<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=555)](https://github.com/HKUDS/DeepTutor/stargazers) | <sub>个性化 AI 学习助手 · [1 个已合并 PR](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>修复模型适配中的视觉能力识别，支持带资源前缀的 Gemini 模型 ID。 [#1588](https://github.com/HKUDS/DeepTutor/pull/1588) |
-| [PR-Agent](https://github.com/The-PR-Agent/pr-agent)<br>[![PR-Agent stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat&label=%E2%98%85&color=555)](https://github.com/The-PR-Agent/pr-agent/stargazers) | <sub>AI 代码审查工具 · [1 个已合并 PR](https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)</sub><br>完善 GitHub 更新日志发布，支持在目标文件缺失时自动创建。 [#3639](https://github.com/The-PR-Agent/pr-agent/pull/3639) |
+<table width="100%">
+<tr><td>
+<p><a href="https://github.com/looplj/axonhub"><strong>AxonHub</strong></a> &nbsp; <a href="https://github.com/looplj/axonhub/stargazers"><img src="https://img.shields.io/github/stars/looplj/axonhub?style=flat&amp;label=%E2%98%85&amp;color=555" alt="AxonHub stars"></a><br>
+<sub>LLM API 网关 · <a href="https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">9 个已合并 PR</a></sub></p>
+<p>修复 API 转换中的工具调用限制与流式字段丢失，完善协议兼容。 <a href="https://github.com/looplj/axonhub/pull/2561">#2561</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/Agent-Field/agentfield"><strong>AgentField</strong></a> &nbsp; <a href="https://github.com/Agent-Field/agentfield/stargazers"><img src="https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&amp;label=%E2%98%85&amp;color=555" alt="AgentField stars"></a><br>
+<sub>Agent 后端框架 · <a href="https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">4 个已合并 PR</a></sub></p>
+<p>为 TypeScript Harness 增加 Provider 预检，修复 Python SDK 的配置解析与随机状态隔离。 <a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/mcp-use/mcp-use"><strong>MCP-Use</strong></a> &nbsp; <a href="https://github.com/mcp-use/mcp-use/stargazers"><img src="https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&amp;label=%E2%98%85&amp;color=555" alt="MCP-Use stars"></a><br>
+<sub>MCP 应用框架 · <a href="https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">1 个已合并 PR</a></sub></p>
+<p>修复 HTML 资源的 UTF-8 解码，让 MCP App 正确显示中文和 Emoji。 <a href="https://github.com/mcp-use/mcp-use/pull/2632">#2632</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/CopilotKit/CopilotKit"><strong>CopilotKit</strong></a> &nbsp; <a href="https://github.com/CopilotKit/CopilotKit/stargazers"><img src="https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=flat&amp;label=%E2%98%85&amp;color=555" alt="CopilotKit stars"></a><br>
+<sub>Agent 前端框架 · <a href="https://github.com/CopilotKit/CopilotKit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">1 个已合并 PR</a></sub></p>
+<p>修复 Runtime 的路由边界判断，避免路径前缀相似的请求被误匹配。 <a href="https://github.com/CopilotKit/CopilotKit/pull/7341">#7341</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/assafelovic/gpt-researcher"><strong>GPT&nbsp;Researcher</strong></a> &nbsp; <a href="https://github.com/assafelovic/gpt-researcher/stargazers"><img src="https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat&amp;label=%E2%98%85&amp;color=555" alt="GPT Researcher stars"></a><br>
+<sub>自主研究 Agent · <a href="https://github.com/assafelovic/gpt-researcher/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">2 个已合并 PR</a></sub></p>
+<p>修复研究上下文合并与空检索结果回退，保留补充检索内容。 <a href="https://github.com/assafelovic/gpt-researcher/pull/2104">#2104</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/HKUDS/DeepTutor"><strong>DeepTutor</strong></a> &nbsp; <a href="https://github.com/HKUDS/DeepTutor/stargazers"><img src="https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&amp;label=%E2%98%85&amp;color=555" alt="DeepTutor stars"></a><br>
+<sub>个性化 AI 学习助手 · <a href="https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">1 个已合并 PR</a></sub></p>
+<p>修复模型适配中的视觉能力识别，支持带资源前缀的 Gemini 模型 ID。 <a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a></p>
+</td></tr>
+<tr><td>
+<p><a href="https://github.com/The-PR-Agent/pr-agent"><strong>PR-Agent</strong></a> &nbsp; <a href="https://github.com/The-PR-Agent/pr-agent/stargazers"><img src="https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat&amp;label=%E2%98%85&amp;color=555" alt="PR-Agent stars"></a><br>
+<sub>AI 代码审查工具 · <a href="https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man">1 个已合并 PR</a></sub></p>
+<p>完善 GitHub 更新日志发布，支持在目标文件缺失时自动创建。 <a href="https://github.com/The-PR-Agent/pr-agent/pull/3639">#3639</a></p>
+</td></tr>
+</table>
 
 <details>
 <summary>展开全部 21 个已合并 PR · 8 个项目</summary>
