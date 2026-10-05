@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-zh-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-zh-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-zh-dark.svg"><img src="./assets/hero-zh-light.svg" width="100%" alt="Steven huang — 智能体与评测"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-zh-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-zh-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-zh-dark.svg"><img src="./assets/hero-zh-light.svg" width="100%" alt="Steven huang — Agent Harness、评测与自进化"></picture>
 
 <p align="center">
   <a href="./README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-language-zh-dark.svg"><img src="./assets/button-language-zh-light.svg" width="128" height="48" alt="English"></picture></a>
@@ -85,7 +85,3 @@
 [在 GitHub 查看完整记录 →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man+-user%3Aremote-controlled-man&type=pullrequests)
 
 </details>
-
----
-
-<p align="center"><a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-linkedin-zh-dark.svg"><img src="./assets/button-linkedin-zh-light.svg" width="128" height="48" alt="LinkedIn"></picture></a></p>

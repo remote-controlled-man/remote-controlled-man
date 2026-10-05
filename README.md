@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-en-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-en-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-en-dark.svg"><img src="./assets/hero-en-light.svg" width="100%" alt="Steven huang — AI agents & evaluation"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-en-mobile-dark.svg"><source media="(max-width: 600px)" srcset="./assets/hero-en-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-en-dark.svg"><img src="./assets/hero-en-light.svg" width="100%" alt="Steven huang — Agent harnesses, evaluation and self-improvement"></picture>
 
 <p align="center">
   <a href="./README.zh-CN.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-language-en-dark.svg"><img src="./assets/button-language-en-light.svg" width="128" height="48" alt="简体中文"></picture></a>
@@ -85,7 +85,3 @@ PR counts verified on 2026-10-03. Star badges show dynamically updated upstream 
 [View the full history on GitHub →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man+-user%3Aremote-controlled-man&type=pullrequests)
 
 </details>
-
----
-
-<p align="center"><a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-linkedin-en-dark.svg"><img src="./assets/button-linkedin-en-light.svg" width="128" height="48" alt="LinkedIn"></picture></a></p>
