@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="./README.zh-CN.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-language-en-dark.svg"><img src="./assets/button-language-en-light.svg" width="128" height="48" alt="简体中文"></picture></a>
-  <a href="#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-projects-en-dark.svg"><img src="./assets/button-projects-en-light.svg" width="128" height="48" alt="Projects"></picture></a>
-  <a href="#open-source-contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-contributions-en-dark.svg"><img src="./assets/button-contributions-en-light.svg" width="128" height="48" alt="Open source"></picture></a>
+  <a href="#user-content-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-projects-en-dark.svg"><img src="./assets/button-projects-en-light.svg" width="128" height="48" alt="Projects"></picture></a>
+  <a href="#user-content-open-source-contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-contributions-en-dark.svg"><img src="./assets/button-contributions-en-light.svg" width="128" height="48" alt="Open source"></picture></a>
   <a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-linkedin-en-dark.svg"><img src="./assets/button-linkedin-en-light.svg" width="128" height="48" alt="LinkedIn"></picture></a>
 </p>
 

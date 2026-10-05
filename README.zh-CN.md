@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="./README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-language-zh-dark.svg"><img src="./assets/button-language-zh-light.svg" width="128" height="48" alt="English"></picture></a>
-  <a href="#项目"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-projects-zh-dark.svg"><img src="./assets/button-projects-zh-light.svg" width="128" height="48" alt="项目"></picture></a>
-  <a href="#开源贡献"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-contributions-zh-dark.svg"><img src="./assets/button-contributions-zh-light.svg" width="128" height="48" alt="开源贡献"></picture></a>
+  <a href="#user-content-项目"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-projects-zh-dark.svg"><img src="./assets/button-projects-zh-light.svg" width="128" height="48" alt="项目"></picture></a>
+  <a href="#user-content-开源贡献"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-contributions-zh-dark.svg"><img src="./assets/button-contributions-zh-light.svg" width="128" height="48" alt="开源贡献"></picture></a>
   <a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-linkedin-zh-dark.svg"><img src="./assets/button-linkedin-zh-light.svg" width="128" height="48" alt="LinkedIn"></picture></a>
 </p>
 
