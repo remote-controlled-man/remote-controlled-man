@@ -9,17 +9,23 @@
 
 ## 项目
 
+<table>
+<tr><td width="100%">
 <h3><a href="https://github.com/remote-controlled-man/skillfit">skillfit ↗</a></h3>
-<p><strong>评测 Coding Agent 配置的实际效果</strong></p>
-<p>已发布到 npm 的命令行评测工具，用相同任务的配对 A/B 实验，比较 Skill、规则文件和 MCP 配置对任务质量、触发率与 Token 成本的影响。运行记录可回放，并支持显式评测预算。</p>
-<p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-case-zh-dark-v2.svg"><img src="./assets/button-case-zh-light-v2.svg" width="128" height="48" alt="复现案例"></picture></a>&nbsp;&nbsp;<a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-protocol-zh-dark-v2.svg"><img src="./assets/button-protocol-zh-light-v2.svg" width="128" height="48" alt="评测方法"></picture></a></p>
+<p>用配对 A/B 实验比较 Skill、规则文件与 MCP 配置的实际效果，记录任务质量、触发率和 Token 成本。支持预算控制与结果回放，可从 npm 安装。</p>
+<p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">复现案例</a> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md">评测方法</a></p>
+</td></tr>
+</table>
 
+<table>
+<tr><td width="100%">
 <h3><a href="https://github.com/remote-controlled-man/device-agent-arena">DeviceAgent Arena ↗</a></h3>
-<p><strong>有状态工具调用 Agent 的评测与后训练实验</strong></p>
-<p>面向中文多轮工具调用的实验环境，包含状态模拟、故障注入，以及终态和完整轨迹评分。通过小模型提议、校验与 Planner 回退，研究 Agent 的闭环执行。</p>
-<p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">实验报告 ↗</a> · <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">复现指南 ↗</a></p>
+<p>中文多轮工具调用的评测与后训练实验环境，包含状态模拟、故障注入、终态与轨迹评分。通过小模型提议、校验和 Planner 回退，研究 Agent 的闭环执行。</p>
+<p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">实验报告</a> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">复现指南</a></p>
+</td></tr>
+</table>
 
-<sub>论文笔记：<a href="https://github.com/remote-controlled-man/llm-paper-wiki">LLM Paper Wiki ↗</a> · LLM 辅助维护的论文笔记与跨论文概念索引。<br>早期阅读：<a href="https://remote-controlled-man.github.io/agent-context-memory-guide/">Agent Context &amp; Memory Guide ↗</a> · 六个 Agent 系统的上下文与记忆机制。</sub>
+<p><strong>笔记</strong> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/llm-paper-wiki">LLM Paper Wiki</a> &nbsp;·&nbsp; <a href="https://remote-controlled-man.github.io/agent-context-memory-guide/">Agent Context &amp; Memory Guide</a> <sub>（早期阅读）</sub></p>
 
 ## 开源贡献
 

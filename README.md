@@ -9,17 +9,23 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 
 ## Projects
 
+<table>
+<tr><td width="100%">
 <h3><a href="https://github.com/remote-controlled-man/skillfit">skillfit ↗</a></h3>
-<p><strong>Paired evaluations for coding agent configurations</strong></p>
-<p>A CLI, available on npm, for paired A/B tests of Skills, rules files, and MCP setups. It compares task quality, trigger behavior, and token cost, with replayable run records and explicit evaluation budgets.</p>
-<p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-case-study-en-dark-v2.svg"><img src="./assets/button-case-study-en-light-v2.svg" width="128" height="48" alt="Case study"></picture></a>&nbsp;&nbsp;<a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/button-methodology-en-dark-v2.svg"><img src="./assets/button-methodology-en-light-v2.svg" width="144" height="48" alt="Methodology"></picture></a></p>
+<p>A CLI for paired A/B tests of Skills, rules files, and MCP setups. Measures task quality, trigger behavior, and token cost, with replayable records and evaluation budgets. Available on npm.</p>
+<p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">Case study</a> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/metrics.md">Methodology</a></p>
+</td></tr>
+</table>
 
+<table>
+<tr><td width="100%">
 <h3><a href="https://github.com/remote-controlled-man/device-agent-arena">DeviceAgent Arena ↗</a></h3>
-<p><strong>Evaluation and post-training for stateful tool-use agents</strong></p>
-<p>A Chinese multi-turn tool-use testbed with state simulation, fault injection, and final-state and trajectory grading. It explores closed-loop execution through a small-model proposal, validation, and planner-fallback pipeline.</p>
-<p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">Experiment report ↗</a> · <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">Reproduction guide ↗</a></p>
+<p>A testbed for stateful Chinese tool use, with state simulation, fault injection, and final-state and trajectory grading. Studies post-training and closed-loop execution through small-model proposals, validation, and planner fallback.</p>
+<p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">Experiment report</a> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">Reproduce</a></p>
+</td></tr>
+</table>
 
-<sub>Notes: <a href="https://github.com/remote-controlled-man/llm-paper-wiki">LLM Paper Wiki ↗</a> · LLM-assisted paper notes and cross-paper concepts.<br>Earlier reading: <a href="https://remote-controlled-man.github.io/agent-context-memory-guide/">Agent Context &amp; Memory Guide ↗</a> · context and memory in six agent systems.</sub>
+<p><strong>Notes</strong> &nbsp;·&nbsp; <a href="https://github.com/remote-controlled-man/llm-paper-wiki">LLM Paper Wiki</a> &nbsp;·&nbsp; <a href="https://remote-controlled-man.github.io/agent-context-memory-guide/">Agent Context &amp; Memory Guide</a> <sub>(earlier reading)</sub></p>
 
 ## Open-source contributions
 
