@@ -28,34 +28,37 @@
 
 ## 开源贡献
 
-**43 个已合并 PR · 13 个上游项目** &nbsp; <sub>截至 2026-10-30</sub>
+### 47 个已合并 PR · 13 个上游项目
 
-▪ **[DeepTutor](https://github.com/HKUDS/DeepTutor)** &nbsp; <sub>AI 学习与研究平台</sub> &nbsp; [![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers) &nbsp; [2 PRs](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042)
+<sub>截至 2026-10-30</sub>
 
-▪ **[AxonHub](https://github.com/looplj/axonhub)** &nbsp; <sub>LLM API 网关</sub> &nbsp; [![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers) &nbsp; [12 PRs](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-修复工具调用与结果顺序，以及音频响应的有效内容判断。 [#2633](https://github.com/looplj/axonhub/pull/2633) [#2634](https://github.com/looplj/axonhub/pull/2634)
+**[DeepTutor](https://github.com/HKUDS/DeepTutor)** &nbsp; · &nbsp; **[2 PRs](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br>
+AI 学习与研究平台 · 修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042)
 
-▪ **[AgentField](https://github.com/Agent-Field/agentfield)** &nbsp; <sub>Agent 后端框架</sub> &nbsp; [![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers) &nbsp; [9 PRs](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-增加 Harness 运行前预检，并修复记忆键匹配。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136)
+**[AxonHub](https://github.com/looplj/axonhub)** &nbsp; · &nbsp; **[12 PRs](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br>
+LLM API 网关 · 修复工具调用与结果顺序，以及音频响应的有效内容判断。 [#2633](https://github.com/looplj/axonhub/pull/2633) [#2634](https://github.com/looplj/axonhub/pull/2634)
 
-▪ **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** &nbsp; <sub>AI 记忆与知识库</sub> &nbsp; [![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers) &nbsp; [2 PRs](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885)
+**[AgentField](https://github.com/Agent-Field/agentfield)** &nbsp; · &nbsp; **[13 PRs](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br>
+Agent 后端框架 · 增加 Harness 运行前预检，并修复记忆键匹配。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136)
 
-▪ **[FastMCP](https://github.com/punkpeye/fastmcp)** &nbsp; <sub>TypeScript MCP 服务框架</sub> &nbsp; [![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers) &nbsp; [5 PRs](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-修复重复工具注册与同 URI 资源替换。 [#477](https://github.com/punkpeye/fastmcp/pull/477) [#476](https://github.com/punkpeye/fastmcp/pull/476)
+**[Basic Memory](https://github.com/basicmachines-co/basic-memory)** &nbsp; · &nbsp; **[2 PRs](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br>
+AI 记忆与知识库 · 修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885)
 
-▪ **[OpenLIT](https://github.com/openlit/openlit)** &nbsp; <sub>Agent 可观测性与评测</sub> &nbsp; [![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers) &nbsp; [1 PR](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591)
+**[FastMCP](https://github.com/punkpeye/fastmcp)** &nbsp; · &nbsp; **[5 PRs](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br>
+TypeScript MCP 服务框架 · 修复重复工具注册与同 URI 资源替换。 [#477](https://github.com/punkpeye/fastmcp/pull/477) [#476](https://github.com/punkpeye/fastmcp/pull/476)
 
-▪ **[MCP-Use](https://github.com/mcp-use/mcp-use)** &nbsp; <sub>MCP 应用框架</sub> &nbsp; [![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers) &nbsp; [1 PR](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-修复 MCP App HTML 的 UTF-8 解码，让中文和 Emoji 正确显示。 [#2632](https://github.com/mcp-use/mcp-use/pull/2632)
+**[OpenLIT](https://github.com/openlit/openlit)** &nbsp; · &nbsp; **[1 PR](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br>
+Agent 可观测性与评测 · 增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591)
 
-▪ **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** &nbsp; <sub>AI 交易 Agent</sub> &nbsp; [![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers) &nbsp; [2 PRs](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)<br>
-统一期权定价波动率与 K 线频率，并修复交易日志格式识别。 [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) [#1766](https://github.com/HKUDS/Vibe-Trading/pull/1766)
+**[MCP-Use](https://github.com/mcp-use/mcp-use)** &nbsp; · &nbsp; **[1 PR](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br>
+MCP 应用框架 · 修复 MCP App HTML 的 UTF-8 解码，让中文和 Emoji 正确显示。 [#2632](https://github.com/mcp-use/mcp-use/pull/2632)
+
+**[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** &nbsp; · &nbsp; **[2 PRs](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** &nbsp; [![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br>
+AI 交易 Agent · 统一期权定价波动率与 K 线频率，并修复交易日志格式识别。 [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) [#1766](https://github.com/HKUDS/Vibe-Trading/pull/1766)
+
 
 <details>
-<summary>展开全部 43 个已合并 PR · 13 个项目</summary>
+<summary>展开全部 47 个已合并 PR · 13 个项目</summary>
 <p>统计核实于 2026-10-30。Star 为上游仓库的动态计数。</p>
 <p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 12 个 PR</strong></p>
 <ul>
@@ -72,8 +75,12 @@
 <li><a href="https://github.com/looplj/axonhub/pull/2414">#2414</a> — 将标准 reasoning_effort: none 正确映射为百炼的关闭思考选项。</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2370">#2370</a> — 让透传模式下的图像编辑接口接受 application/json 请求。</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 9 个 PR</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 13 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — 修复 Go 格式化命令重复遍历文件的问题。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — 在测试间等待已接受的 MCP 任务完成，避免共享并发状态互相影响。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — 对记忆订阅过滤参数进行 URL 编码，保留特殊字符。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1129">#1129</a> — 将数值型 Retry-After 作为最短等待时间，避免过早重试。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1136">#1136</a> — 按字面匹配记忆订阅键，避免特殊字符被误读为正则。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1109">#1109</a> — 让 Python SDK 对不可恢复的状态回调错误停止重试。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1106">#1106</a> — 修复 memory.exists() 对缺失键的判断，同时正确识别已存储的空值、零等假值。</li>
