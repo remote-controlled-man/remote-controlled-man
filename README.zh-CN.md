@@ -10,7 +10,7 @@
 
 <table>
 <tr><td width="100%">
-<a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-zh-dark-v16.svg"><img src="./assets/project-skillfit-zh-light-v16.svg" width="470" alt="skillfit"></picture></a>
+<a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-zh-dark-v17.svg"><img src="./assets/project-skillfit-zh-light-v17.svg" width="470" alt="skillfit"></picture></a>
 <p>用配对 A/B 实验比较 Skill、规则文件与 MCP 配置的实际效果，记录任务质量、触发率和 Token 成本。支持预算控制与结果回放，可从 npm 安装。</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">复现案例</a>  ·  <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/reference/metrics.md">评测方法</a></p>
 </td></tr>
@@ -18,7 +18,7 @@
 
 <table>
 <tr><td width="100%">
-<a href="https://github.com/remote-controlled-man/device-agent-arena"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-arena-zh-dark-v16.svg"><img src="./assets/project-arena-zh-light-v16.svg" width="470" alt="DeviceAgent Arena"></picture></a>
+<a href="https://github.com/remote-controlled-man/device-agent-arena"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-arena-zh-dark-v17.svg"><img src="./assets/project-arena-zh-light-v17.svg" width="470" alt="DeviceAgent Arena"></picture></a>
 <p>中文多轮工具调用的实验环境：用模拟状态和故障注入构造任务，根据最终状态与完整轨迹评估 Agent，也探索小模型与 Planner 的协同执行。</p>
 <p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">实验报告</a>  ·  <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">复现指南</a></p>
 </td></tr>

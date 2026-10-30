@@ -10,7 +10,7 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 
 <table>
 <tr><td width="100%">
-<a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-en-dark-v16.svg"><img src="./assets/project-skillfit-en-light-v16.svg" width="470" alt="skillfit"></picture></a>
+<a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-en-dark-v17.svg"><img src="./assets/project-skillfit-en-light-v17.svg" width="470" alt="skillfit"></picture></a>
 <p>A CLI for paired A/B tests of Skills, rules files, and MCP setups. Measures task quality, trigger behavior, and token cost, with replayable records and evaluation budgets. Available on npm.</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">Case study</a>  ·  <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/reference/metrics.md">Methodology</a></p>
 </td></tr>
@@ -18,7 +18,7 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 
 <table>
 <tr><td width="100%">
-<a href="https://github.com/remote-controlled-man/device-agent-arena"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-arena-en-dark-v16.svg"><img src="./assets/project-arena-en-light-v16.svg" width="470" alt="DeviceAgent Arena"></picture></a>
+<a href="https://github.com/remote-controlled-man/device-agent-arena"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-arena-en-dark-v17.svg"><img src="./assets/project-arena-en-light-v17.svg" width="470" alt="DeviceAgent Arena"></picture></a>
 <p>A testbed for stateful Chinese tool use, with state simulation, fault injection, and final-state and trajectory grading. Studies post-training and closed-loop execution through small-model proposals, validation, and planner fallback.</p>
 <p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">Experiment report</a>  ·  <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">Reproduce</a></p>
 </td></tr>
