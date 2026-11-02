@@ -28,7 +28,7 @@
 
 ## 开源贡献
 
-### 52 个已合并 PR · 14 个上游项目
+### 57 个已合并 PR · 14 个上游项目
 
 <sub>截至 2026-11-02</sub>
 
@@ -36,23 +36,26 @@
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复浏览器桥接不可用时被误记为空会话的问题。 [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI 学习与研究平台</sub> | **[2](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
-| **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API 网关</sub> | **[12](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复工具调用与结果顺序，以及音频响应的有效内容判断。 [#2633](https://github.com/looplj/axonhub/pull/2633) [#2634](https://github.com/looplj/axonhub/pull/2634) |
+| **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API 网关</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 支持数组通配字段删除，修复 Gemini 多段推理内容与工具调用顺序。 [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
 | **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[14](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 运行前预检，并修复记忆键匹配及关闭时重连。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136) [#1142](https://github.com/Agent-Field/agentfield/pull/1142) |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI 记忆与知识库</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
-| **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP 服务框架</sub> | **[5](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复重复工具注册与同 URI 资源替换。 [#477](https://github.com/punkpeye/fastmcp/pull/477) [#476](https://github.com/punkpeye/fastmcp/pull/476) |
+| **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP 服务框架</sub> | **[7](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复资源模板批量注册及 JSON Schema 2019-09 验证。 [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent 可观测性与评测</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591) |
 | **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP 应用框架</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 MCP App HTML 的 UTF-8 解码，让中文和 Emoji 正确显示。 [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI 交易 Agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Agent 最终回答重试、文档数值证据识别和期权波动率年化。 [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 
 <details>
-<summary>展开全部 52 个已合并 PR · 14 个项目</summary>
+<summary>展开全部 57 个已合并 PR · 14 个项目</summary>
 <p>统计核实于 2026-11-02。Star 为上游仓库的动态计数。</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — 避免浏览器桥接不可用时将失败的会话发现误记为空快照，并提供恢复提示。</li>
 </ul>
-<p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 12 个 PR</strong></p>
+<p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 15 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/looplj/axonhub/pull/2831">#2831</a> — 修复 Gemini 响应转换丢失多段推理摘要的问题。</li>
+<li><a href="https://github.com/looplj/axonhub/pull/2830">#2830</a> — 修复 GraphQL 生成时 Dashboard 辅助函数被移走导致的构建失败。</li>
+<li><a href="https://github.com/looplj/axonhub/pull/2824">#2824</a> — 支持在请求体数组中通过通配路径删除字段，包括嵌套数组。</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2634">#2634</a> — 将消息中的音频识别为有效响应内容，避免误判为空响应并重复重试。</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2633">#2633</a> — 转换 Responses API 输入时，将工具结果紧邻对应调用，避免上游拒绝消息顺序。</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2572">#2572</a> — 将聚合后的引用信息放入响应顶层字段，避免泄露内部转换元数据。</li>
@@ -83,8 +86,10 @@
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — 在不使用 Schema 的 Harness 运行中跳过 Schema 输出目录。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — 为 TypeScript Agent Harness 增加运行前的 Provider 可用性检查。</li>
 </ul>
-<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 5 个 PR</strong></p>
+<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 7 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/485">#485</a> — 修复 jsonSchemaAdapter 对 JSON Schema 2019-09 的验证。</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/478">#478</a> — 修复批量注册重复资源模板时读取到旧内容的问题。</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/477">#477</a> — 批量注册重复工具名时只保留最后一个定义，使工具列表与调用一致。</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/476">#476</a> — 按 URI 替换重复资源，保持读取、嵌入与删除的一致性。</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/442">#442</a> — 修复必填 JSON 请求体在未传属性时被省略的问题，正确发送空对象。</li>
