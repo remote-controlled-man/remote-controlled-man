@@ -28,24 +28,29 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 
 ## Open-source contributions
 
-### 47 merged PRs · 13 upstream projects
+### 52 merged PRs · 14 upstream projects
 
-<sub>As of 2026-10-30</sub>
+<sub>As of 2026-11-02</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
+| **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Avoided recording empty session snapshots when the browser bridge is unavailable. [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[2](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API gateway</sub> | **[12](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed tool-call ordering and audio-aware empty-response detection. [#2633](https://github.com/looplj/axonhub/pull/2633) [#2634](https://github.com/looplj/axonhub/pull/2634) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[13](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness provider preflight and fixed memory-key matching. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[14](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed memory-key matching and shutdown reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136) [#1142](https://github.com/Agent-Field/agentfield/pull/1142) |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[5](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed duplicate tool registration and same-URI resource replacement. [#477](https://github.com/punkpeye/fastmcp/pull/477) [#476](https://github.com/punkpeye/fastmcp/pull/476) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
 | **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP application framework</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed UTF-8 decoding of MCP App HTML for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
-| **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[2](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Aligned options volatility with bar cadence and fixed trade-journal format detection. [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) [#1766](https://github.com/HKUDS/Vibe-Trading/pull/1766) |
+| **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 
 <details>
-<summary>View all 47 merged PRs across 13 projects</summary>
-<p>PR counts verified on 2026-10-30. Star badges show upstream repository stars.</p>
+<summary>View all 52 merged PRs across 14 projects</summary>
+<p>PR counts verified on 2026-11-02. Star badges show upstream repository stars.</p>
+<p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
+</ul>
 <p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 12 merged</strong></p>
 <ul>
 <li><a href="https://github.com/looplj/axonhub/pull/2634">#2634</a> — Recognized message audio as response content, preventing unnecessary empty-response retries.</li>
@@ -61,8 +66,9 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 <li><a href="https://github.com/looplj/axonhub/pull/2414">#2414</a> — Mapped reasoning_effort: none to Bailian's thinking-disable option.</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2370">#2370</a> — Accepted application/json for image-edit requests in passthrough mode.</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 13 merged</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 14 merged</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — Stopped memory-event reconnects and discarded in-flight connections during shutdown.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — Formatted Go packages without recursively processing the same files twice.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — Drained accepted MCP work between tests to isolate shared concurrency state.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — URL-encoded memory subscription filters to preserve special characters.</li>
@@ -98,8 +104,11 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 <ul>
 <li><a href="https://github.com/mcp-use/mcp-use/pull/2632">#2632</a> — Decoded MCP App HTML blobs as UTF-8 so Chinese text and emoji render correctly.</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/Vibe-Trading">Vibe-Trading</a> · 2 merged</strong></p>
+<p><strong><a href="https://github.com/HKUDS/Vibe-Trading">Vibe-Trading</a> · 5 merged</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2138">#2138</a> — Clarified A-share data-source installation and the automatic fallback chain.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2136">#2136</a> — Gave a withheld tool-markup answer one bounded text-only retry after the iteration cap.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2135">#2135</a> — Preserved comma-grouped document integers as measured grounding evidence.</li>
 <li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1766">#1766</a> — Corrected Futu journal format detection so generic column aliases do not silently zero out fills.</li>
 <li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1753">#1753</a> — Annualized options-pricing volatility using the backtest's actual bar cadence.</li>
 </ul>
