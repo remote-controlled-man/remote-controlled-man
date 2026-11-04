@@ -28,16 +28,17 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 
 ## Open-source contributions
 
-### 57 merged PRs · 14 upstream projects
+### 60 merged PRs · 15 upstream projects
 
-<sub>As of 2026-11-02</sub>
+<sub>As of 2026-11-04</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Avoided recording empty session snapshots when the browser bridge is unavailable. [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[2](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
+| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[1](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API gateway</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added array-wildcard field deletion and fixed Gemini thought summaries and tool-call ordering. [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[14](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed memory-key matching and shutdown reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1136](https://github.com/Agent-Field/agentfield/pull/1136) [#1142](https://github.com/Agent-Field/agentfield/pull/1142) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[16](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[7](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
@@ -45,11 +46,15 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 
 <details>
-<summary>View all 57 merged PRs across 14 projects</summary>
-<p>PR counts verified on 2026-11-02. Star badges show upstream repository stars.</p>
+<summary>View all 60 merged PRs across 15 projects</summary>
+<p>PR counts verified on 2026-11-04. Star badges show upstream repository stars.</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
+</ul>
+<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/simonw/llm/pull/1845">#1845</a> — Fixed invalid endpoint configuration when adding an item to a flow-style YAML list.</li>
 </ul>
 <p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 15 merged</strong></p>
 <ul>
@@ -69,8 +74,10 @@ I'm a master's student in Computer Science at the University of Hong Kong, curre
 <li><a href="https://github.com/looplj/axonhub/pull/2414">#2414</a> — Mapped reasoning_effort: none to Bailian's thinking-disable option.</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2370">#2370</a> — Accepted application/json for image-edit requests in passthrough mode.</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 14 merged</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 16 merged</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — Preserved valid JSONL events containing Unicode separators in harness CLI output.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — Retained memory event subscription filters across automatic reconnects.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — Stopped memory-event reconnects and discarded in-flight connections during shutdown.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — Formatted Go packages without recursively processing the same files twice.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — Drained accepted MCP work between tests to isolate shared concurrency state.</li>
