@@ -36,38 +36,71 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
-| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
-| **[gogcli](https://github.com/openclaw/gogcli)**<br>[![gogcli stars](https://img.shields.io/github/stars/openclaw/gogcli?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openclaw/gogcli/stargazers)<br><sub>Google Workspace CLI</sub> | **[1](https://github.com/openclaw/gogcli/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Rejected invalid Calendar time windows before querying events. [#1298](https://github.com/openclaw/gogcli/pull/1298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Avoided recording empty session snapshots when the browser bridge is unavailable. [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
+| **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
+| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
 | **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[2](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
+| **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP application framework</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed UTF-8 decoding of MCP App HTML for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
+| **[gogcli](https://github.com/openclaw/gogcli)**<br>[![gogcli stars](https://img.shields.io/github/stars/openclaw/gogcli?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openclaw/gogcli/stargazers)<br><sub>Google Workspace CLI</sub> | **[1](https://github.com/openclaw/gogcli/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Rejected invalid Calendar time windows before querying events. [#1298](https://github.com/openclaw/gogcli/pull/1298) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API gateway</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added array-wildcard field deletion and fixed Gemini thought summaries and tool-call ordering. [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[17](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[8](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP application framework</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed UTF-8 decoding of MCP App HTML for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
-| **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[17](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 
 <details>
 <summary>View all 68 merged PRs across 17 projects</summary>
-<p>PR counts verified on 2026-11-06. Star badges show upstream repository stars.</p>
+<p>PR counts and project order checked on 2026-11-06. Projects are ordered by upstream stars; badges update automatically.</p>
+<p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 merged</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — Reported unsupported source-only RAG scope instead of silently dropping it.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2336">#2336</a> — Preserved dotted identifiers in BM25 retrieval and refreshed incompatible caches.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — Kept composer tray menus visible and interactive above the input card.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — Bounded latest-message queries instead of fetching the full session history.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — Recognized vision support in Gemini model IDs with a models/ prefix.</li>
+</ul>
+<p><strong><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/CopilotKit/CopilotKit/pull/7341">#7341</a> — Enforced base-path segment boundaries in single-route runtime matching.</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/Vibe-Trading">Vibe-Trading</a> · 5 merged</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2138">#2138</a> — Clarified A-share data-source installation and the automatic fallback chain.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2136">#2136</a> — Gave a withheld tool-markup answer one bounded text-only retry after the iteration cap.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2135">#2135</a> — Preserved comma-grouped document integers as measured grounding evidence.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1766">#1766</a> — Corrected Futu journal format detection so generic column aliases do not silently zero out fills.</li>
+<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1753">#1753</a> — Annualized options-pricing volatility using the backtest's actual bar cadence.</li>
+</ul>
+<p><strong><a href="https://github.com/assafelovic/gpt-researcher">GPT Researcher</a> · 2 merged</strong></p>
+<ul>
+<li><a href="https://github.com/assafelovic/gpt-researcher/pull/2105">#2105</a> — Fell back when retriever content became blank after normalization.</li>
+<li><a href="https://github.com/assafelovic/gpt-researcher/pull/2104">#2104</a> — Preserved complementary web-research context when combining sources.</li>
+</ul>
 <p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/charmbracelet/crush/pull/4235">#4235</a> — Kept browser-launcher output from overwriting the terminal UI.</li>
 </ul>
-<p><strong><a href="https://github.com/openclaw/gogcli">gogcli</a> · 1 merged</strong></p>
+<p><strong><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> · 1 merged</strong></p>
 <ul>
-<li><a href="https://github.com/openclaw/gogcli/pull/1298">#1298</a> — Rejected invalid Calendar time windows before querying events.</li>
-</ul>
-<p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent/pull/3639">#3639</a> — Created a missing changelog file when publishing generated updates.</li>
 </ul>
 <p><strong><a href="https://github.com/simonw/llm">LLM</a> · 2 merged</strong></p>
 <ul>
 <li><a href="https://github.com/simonw/llm/pull/1857">#1857</a> — Supported pipe and process-substitution paths for CLI attachments.</li>
 <li><a href="https://github.com/simonw/llm/pull/1845">#1845</a> — Fixed invalid endpoint configuration when adding an item to a flow-style YAML list.</li>
+</ul>
+<p><strong><a href="https://github.com/mcp-use/mcp-use">MCP-Use</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/mcp-use/mcp-use/pull/2632">#2632</a> — Decoded MCP App HTML blobs as UTF-8 so Chinese text and emoji render correctly.</li>
+</ul>
+<p><strong><a href="https://github.com/openclaw/gogcli">gogcli</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/openclaw/gogcli/pull/1298">#1298</a> — Rejected invalid Calendar time windows before querying events.</li>
 </ul>
 <p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 15 merged</strong></p>
 <ul>
@@ -86,6 +119,26 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/looplj/axonhub/pull/2423">#2423</a> — Preserved DeepSeek native web-search tools in Anthropic request handling.</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2414">#2414</a> — Mapped reasoning_effort: none to Bailian's thinking-disable option.</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2370">#2370</a> — Accepted application/json for image-edit requests in passthrough mode.</li>
+</ul>
+<p><strong><a href="https://github.com/basicmachines-co/basic-memory">Basic Memory</a> · 2 merged</strong></p>
+<ul>
+<li><a href="https://github.com/basicmachines-co/basic-memory/pull/1884">#1884</a> — Refreshed relation embeddings after forward-reference resolution.</li>
+<li><a href="https://github.com/basicmachines-co/basic-memory/pull/1885">#1885</a> — Returned 400 for malformed memory-context locators instead of a server error.</li>
+</ul>
+<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 8 merged</strong></p>
+<ul>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/496">#496</a> — Encoded OpenAPI path array items separately while preserving comma separators.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/485">#485</a> — Fixed draft-2019-09 validation in jsonSchemaAdapter.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/478">#478</a> — Kept the last duplicate resource template in a registration batch.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/477">#477</a> — Kept the last duplicate tool definition so listings match calls.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/476">#476</a> — Replaced duplicate resources by URI so reads, embedding and removal agree.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/442">#442</a> — Sent an empty JSON object for required request bodies when no properties are supplied.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/434">#434</a> — Closed framework-owned stdio sessions and transports on stop, including cancellation and setup-failure cleanup.</li>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/433">#433</a> — Added OpenAPI simple-style serialization for flat object path parameters.</li>
+</ul>
+<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — Added OpenCode integration with lifecycle telemetry, token/cost accounting, and bounded non-blocking event delivery.</li>
 </ul>
 <p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 17 merged</strong></p>
 <ul>
@@ -107,64 +160,11 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — Skipped schema output directories when harness runs do not use a schema.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — Added provider availability checks before TypeScript agent harness runs.</li>
 </ul>
-<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 8 merged</strong></p>
-<ul>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/496">#496</a> — Encoded OpenAPI path array items separately while preserving comma separators.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/485">#485</a> — Fixed draft-2019-09 validation in jsonSchemaAdapter.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/478">#478</a> — Kept the last duplicate resource template in a registration batch.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/477">#477</a> — Kept the last duplicate tool definition so listings match calls.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/476">#476</a> — Replaced duplicate resources by URI so reads, embedding and removal agree.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/442">#442</a> — Sent an empty JSON object for required request bodies when no properties are supplied.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/434">#434</a> — Closed framework-owned stdio sessions and transports on stop, including cancellation and setup-failure cleanup.</li>
-<li><a href="https://github.com/punkpeye/fastmcp/pull/433">#433</a> — Added OpenAPI simple-style serialization for flat object path parameters.</li>
-</ul>
-<p><strong><a href="https://github.com/basicmachines-co/basic-memory">Basic Memory</a> · 2 merged</strong></p>
-<ul>
-<li><a href="https://github.com/basicmachines-co/basic-memory/pull/1884">#1884</a> — Refreshed relation embeddings after forward-reference resolution.</li>
-<li><a href="https://github.com/basicmachines-co/basic-memory/pull/1885">#1885</a> — Returned 400 for malformed memory-context locators instead of a server error.</li>
-</ul>
-<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — Added OpenCode integration with lifecycle telemetry, token/cost accounting, and bounded non-blocking event delivery.</li>
-</ul>
-<p><strong><a href="https://github.com/mcp-use/mcp-use">MCP-Use</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/mcp-use/mcp-use/pull/2632">#2632</a> — Decoded MCP App HTML blobs as UTF-8 so Chinese text and emoji render correctly.</li>
-</ul>
-<p><strong><a href="https://github.com/HKUDS/Vibe-Trading">Vibe-Trading</a> · 5 merged</strong></p>
-<ul>
-<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2138">#2138</a> — Clarified A-share data-source installation and the automatic fallback chain.</li>
-<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2136">#2136</a> — Gave a withheld tool-markup answer one bounded text-only retry after the iteration cap.</li>
-<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/2135">#2135</a> — Preserved comma-grouped document integers as measured grounding evidence.</li>
-<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1766">#1766</a> — Corrected Futu journal format detection so generic column aliases do not silently zero out fills.</li>
-<li><a href="https://github.com/HKUDS/Vibe-Trading/pull/1753">#1753</a> — Annualized options-pricing volatility using the backtest's actual bar cadence.</li>
-</ul>
-<p><strong><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/CopilotKit/CopilotKit/pull/7341">#7341</a> — Enforced base-path segment boundaries in single-route runtime matching.</li>
-</ul>
-<p><strong><a href="https://github.com/assafelovic/gpt-researcher">GPT Researcher</a> · 2 merged</strong></p>
-<ul>
-<li><a href="https://github.com/assafelovic/gpt-researcher/pull/2105">#2105</a> — Fell back when retriever content became blank after normalization.</li>
-<li><a href="https://github.com/assafelovic/gpt-researcher/pull/2104">#2104</a> — Preserved complementary web-research context when combining sources.</li>
-</ul>
 <p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 merged</strong></p>
 <ul>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — Parsed complete numeric tool parameters instead of accepting truncated prefixes.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
-</ul>
-<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 merged</strong></p>
-<ul>
-<li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — Reported unsupported source-only RAG scope instead of silently dropping it.</li>
-<li><a href="https://github.com/HKUDS/DeepTutor/pull/2336">#2336</a> — Preserved dotted identifiers in BM25 retrieval and refreshed incompatible caches.</li>
-<li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — Kept composer tray menus visible and interactive above the input card.</li>
-<li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — Bounded latest-message queries instead of fetching the full session history.</li>
-<li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — Recognized vision support in Gemini model IDs with a models/ prefix.</li>
-</ul>
-<p><strong><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/The-PR-Agent/pr-agent/pull/3639">#3639</a> — Created a missing changelog file when publishing generated updates.</li>
 </ul>
 <p><strong><a href="https://github.com/1firecracker/Agent-For-Exam">Agent-For-Exam</a> · 2 merged</strong></p>
 <ul>
