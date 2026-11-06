@@ -1,7 +1,7 @@
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/hero-en-dark-mobile-v16.png"><source media="(max-width: 700px)" srcset="./assets/hero-en-light-mobile-v16.png"><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-en-dark-v16.png"><img src="./assets/hero-en-light-v16.png" width="100%" alt="Steven Huang — agent harnesses, evaluation and self-improvement"></picture>
 
 <p align="center">
-  <a href="#user-content-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-projects-en-dark-v16.svg"><img src="./assets/key-projects-en-light-v16.svg" width="130" alt="Projects"></picture></a>&nbsp; <a href="#user-content-open-source-contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-opensource-en-dark-v16.svg"><img src="./assets/key-opensource-en-light-v16.svg" width="130" alt="Open source"></picture></a>&nbsp; <a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-linkedin-en-dark-v16.svg"><img src="./assets/key-linkedin-en-light-v16.svg" width="130" alt="LinkedIn"></picture></a>&nbsp; <a href="./README.zh-CN.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-language-en-dark-v16.svg"><img src="./assets/key-language-en-light-v16.svg" width="130" alt="简体中文"></picture></a>
+  <a href="#user-content-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-projects-en-dark-v16.svg"><img src="./assets/key-projects-en-light-v16.svg" width="115" alt="Projects"></picture></a>&nbsp;<a href="#user-content-open-source-contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-opensource-en-dark-v16.svg"><img src="./assets/key-opensource-en-light-v16.svg" width="115" alt="Open source"></picture></a>&nbsp; <a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-linkedin-en-dark-v16.svg"><img src="./assets/key-linkedin-en-light-v16.svg" width="115" alt="LinkedIn"></picture></a>&nbsp;<a href="./README.zh-CN.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-language-en-dark-v16.svg"><img src="./assets/key-language-en-light-v16.svg" width="115" alt="简体中文"></picture></a>
 </p>
 
 I'm a Computer Science master's student at the University of Hong Kong, currently interning at [Ant Group](https://www.antgroup.com/). I previously interned at [Cybopal](https://cybopal.com/) and [Kuaishou](https://www.kuaishou.com/). I'm interested in building and evaluating AI agents, particularly agent harnesses, tool use, and how agents can improve through feedback. I also build open-source projects and contribute to projects I find interesting.
@@ -13,7 +13,7 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <table>
 <tr><td width="100%">
 <a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-en-dark-v17.svg"><img src="./assets/project-skillfit-en-light-v17.svg" width="470" alt="skillfit"></picture></a>
-<p>A CLI for paired A/B tests of Skills, rules files, and MCP setups. Measures task quality, trigger behavior, and token cost, with replayable records and evaluation budgets. Available on npm.</p>
+<p>Compare agent Skills, rules, and MCP setups with paired A/B tests. Track task quality, trigger behavior, and token cost with replayable results and budget controls. Available on npm.</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">Case study</a>  ·  <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/reference/metrics.md">Methodology</a></p>
 </td></tr>
 </table>
@@ -21,7 +21,7 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <table>
 <tr><td width="100%">
 <a href="https://github.com/remote-controlled-man/device-agent-arena"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-arena-en-dark-v17.svg"><img src="./assets/project-arena-en-light-v17.svg" width="470" alt="DeviceAgent Arena"></picture></a>
-<p>A testbed for stateful Chinese tool use, with state simulation, fault injection, and final-state and trajectory grading. Studies post-training and closed-loop execution through small-model proposals, validation, and planner fallback.</p>
+<p>A testbed for evaluating agents on Chinese tool-use tasks where actions change the environment. It simulates state and failures, grades both outcomes and action sequences, and explores small-model training and execution.</p>
 <p><a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/V2_7_LAYERED_EXPERIMENT_REPORT.md">Experiment report</a>  ·  <a href="https://github.com/remote-controlled-man/device-agent-arena/blob/main/docs/REPRODUCING_V2_7.md">Reproduce</a></p>
 </td></tr>
 </table>
@@ -30,32 +30,43 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 ## Open-source contributions
 
-### 60 merged PRs · 15 upstream projects
+### 68 merged PRs · 17 upstream projects
 
-<sub>As of 2026-11-04</sub>
+<sub>As of 2026-11-06</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
+| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
+| **[gogcli](https://github.com/openclaw/gogcli)**<br>[![gogcli stars](https://img.shields.io/github/stars/openclaw/gogcli?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openclaw/gogcli/stargazers)<br><sub>Google Workspace CLI</sub> | **[1](https://github.com/openclaw/gogcli/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Rejected invalid Calendar time windows before querying events. [#1298](https://github.com/openclaw/gogcli/pull/1298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Avoided recording empty session snapshots when the browser bridge is unavailable. [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
-| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[2](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
-| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[1](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
+| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
+| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[2](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API gateway</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added array-wildcard field deletion and fixed Gemini thought summaries and tool-call ordering. [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[16](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[17](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
-| **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[7](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
+| **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[8](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
 | **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP application framework</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed UTF-8 decoding of MCP App HTML for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 
 <details>
-<summary>View all 60 merged PRs across 15 projects</summary>
-<p>PR counts verified on 2026-11-04. Star badges show upstream repository stars.</p>
+<summary>View all 68 merged PRs across 17 projects</summary>
+<p>PR counts verified on 2026-11-06. Star badges show upstream repository stars.</p>
+<p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/charmbracelet/crush/pull/4235">#4235</a> — Kept browser-launcher output from overwriting the terminal UI.</li>
+</ul>
+<p><strong><a href="https://github.com/openclaw/gogcli">gogcli</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/openclaw/gogcli/pull/1298">#1298</a> — Rejected invalid Calendar time windows before querying events.</li>
+</ul>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
 </ul>
-<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 1 merged</strong></p>
+<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 2 merged</strong></p>
 <ul>
+<li><a href="https://github.com/simonw/llm/pull/1857">#1857</a> — Supported pipe and process-substitution paths for CLI attachments.</li>
 <li><a href="https://github.com/simonw/llm/pull/1845">#1845</a> — Fixed invalid endpoint configuration when adding an item to a flow-style YAML list.</li>
 </ul>
 <p><strong><a href="https://github.com/looplj/axonhub">AxonHub</a> · 15 merged</strong></p>
@@ -76,8 +87,9 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/looplj/axonhub/pull/2414">#2414</a> — Mapped reasoning_effort: none to Bailian's thinking-disable option.</li>
 <li><a href="https://github.com/looplj/axonhub/pull/2370">#2370</a> — Accepted application/json for image-edit requests in passthrough mode.</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 16 merged</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 17 merged</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — Preserved declared boolean defaults in Python agent CLI calls.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — Preserved valid JSONL events containing Unicode separators in harness CLI output.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — Retained memory event subscription filters across automatic reconnects.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — Stopped memory-event reconnects and discarded in-flight connections during shutdown.</li>
@@ -95,8 +107,9 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — Skipped schema output directories when harness runs do not use a schema.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — Added provider availability checks before TypeScript agent harness runs.</li>
 </ul>
-<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 7 merged</strong></p>
+<p><strong><a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 8 merged</strong></p>
 <ul>
+<li><a href="https://github.com/punkpeye/fastmcp/pull/496">#496</a> — Encoded OpenAPI path array items separately while preserving comma separators.</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/485">#485</a> — Fixed draft-2019-09 validation in jsonSchemaAdapter.</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/478">#478</a> — Kept the last duplicate resource template in a registration batch.</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/477">#477</a> — Kept the last duplicate tool definition so listings match calls.</li>
@@ -141,8 +154,11 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 2 merged</strong></p>
+<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 merged</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — Reported unsupported source-only RAG scope instead of silently dropping it.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2336">#2336</a> — Preserved dotted identifiers in BM25 retrieval and refreshed incompatible caches.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — Kept composer tray menus visible and interactive above the input card.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — Bounded latest-message queries instead of fetching the full session history.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — Recognized vision support in Gemini model IDs with a models/ prefix.</li>
 </ul>
