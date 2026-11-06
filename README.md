@@ -6,6 +6,8 @@
 
 I'm a Computer Science master's student at the University of Hong Kong, currently interning at [Ant Group](https://www.antgroup.com/). I previously interned at [Cybopal](https://cybopal.com/) and [Kuaishou](https://www.kuaishou.com/). I'm interested in building and evaluating AI agents, particularly agent harnesses, tool use, and how agents can improve through feedback. I also build open-source projects and contribute to projects I find interesting.
 
+✉️ [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
+
 ## Projects
 
 <table>

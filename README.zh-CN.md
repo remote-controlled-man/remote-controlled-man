@@ -6,6 +6,8 @@
 
 我在香港大学读计算机科学硕士，目前在[蚂蚁集团](https://www.antgroup.com/)实习，之前在[细胞壁（Cybopal）](https://cybopal.com/)和[快手](https://www.kuaishou.com/)实习过。我关注 AI Agent 的构建与评测，尤其对 Agent Harness、工具使用，以及 Agent 如何从反馈中改进感兴趣。平时也会做一些开源项目，给感兴趣的项目贡献代码。
 
+✉️ [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
+
 ## 项目
 
 <table>
