@@ -4,7 +4,7 @@
   <a href="#user-content-项目"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-projects-zh-dark-v16.svg"><img src="./assets/key-projects-zh-light-v16.svg" width="130" alt="项目"></picture></a>&nbsp; <a href="#user-content-开源贡献"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-opensource-zh-dark-v16.svg"><img src="./assets/key-opensource-zh-light-v16.svg" width="130" alt="开源贡献"></picture></a>&nbsp; <a href="https://www.linkedin.com/in/steven-sidi-huang/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-linkedin-zh-dark-v16.svg"><img src="./assets/key-linkedin-zh-light-v16.svg" width="130" alt="LinkedIn"></picture></a>&nbsp; <a href="./README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/key-language-zh-dark-v16.svg"><img src="./assets/key-language-zh-light-v16.svg" width="130" alt="English"></picture></a>
 </p>
 
-我在香港大学读计算机硕士，目前在[蚂蚁集团](https://www.antgroup.com/)实习，之前在[细胞壁（Cybopal）](https://cybopal.com/)和[快手](https://www.kuaishou.com/)实习过。我对 AI Agent、评测、Harness 和自进化感兴趣。
+我在香港大学读计算机科学硕士，目前在[蚂蚁集团](https://www.antgroup.com/)实习，之前也在[细胞壁（Cybopal）](https://cybopal.com/)和[快手](https://www.kuaishou.com/)实习过。我对 AI Agent 很感兴趣，尤其想了解 Harness 和工具怎样帮助它们完成任务，以及怎样通过评测和反馈让它们不断改进。平时也喜欢做一些开源项目，给感兴趣的项目提 PR，边做边学。
 
 ## 项目
 
