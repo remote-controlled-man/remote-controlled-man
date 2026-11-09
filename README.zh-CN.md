@@ -30,13 +30,13 @@
 
 ## 开源贡献
 
-### 68 个已合并 PR · 17 个上游项目
+### 73 个已合并 PR · 17 个上游项目
 
-<sub>截至 2026-11-06</sub>
+<sub>截至 2026-11-09</sub>
 
 | 项目 | PR | 代表贡献 |
 | :--- | :---: | :--- |
-| **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[1](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复浏览器桥接不可用时被误记为空会话的问题。 [#879](https://github.com/Panniantong/Agent-Reach/pull/879) |
+| **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复登录编码、公共检索重复请求和 V2EX 超时回退。 [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI 学习与研究平台</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI 交易 Agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Agent 最终回答重试、文档数值证据识别和期权波动率年化。 [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 | **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>终端 AI 编程助手</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 避免浏览器启动器输出覆盖终端界面。 [#4235](https://github.com/charmbracelet/crush/pull/4235) |
@@ -47,13 +47,17 @@
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI 记忆与知识库</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP 服务框架</sub> | **[8](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复资源模板批量注册及 JSON Schema 2019-09 验证。 [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent 可观测性与评测</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[17](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复事件解析与记忆订阅重连。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[18](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复事件解析与记忆订阅重连。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 
 <details>
-<summary>展开全部 68 个已合并 PR · 17 个项目</summary>
-<p>PR 数量和项目顺序核实于 2026-11-06。项目按上游 Star 排序，徽章数字会自动更新。</p>
-<p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 1 个 PR</strong></p>
+<summary>展开全部 73 个已合并 PR · 17 个项目</summary>
+<p>PR 数量和项目顺序核实于 2026-11-09。项目按上游 Star 排序，徽章数字会自动更新。</p>
+<p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 5 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/925">#925</a> — 让交互式登录子进程使用 UTF-8，避免 GBK 控制台无法输出二维码提示。</li>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/924">#924</a> — 将无交易所前缀的 920 开头股票代码路由到北交所。</li>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/916">#916</a> — 避免公共网页优先检索失败后重复发送相同请求。</li>
+<li><a href="https://github.com/Panniantong/Agent-Reach/pull/902">#902</a> — 为 V2EX TLS 超时启用有时间限制的 curl 回退。</li>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — 避免浏览器桥接不可用时将失败的会话发现误记为空快照，并提供恢复提示。</li>
 </ul>
 <p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 个 PR</strong></p>
@@ -140,8 +144,9 @@
 <ul>
 <li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — 增加 OpenCode 集成，覆盖生命周期遥测、Token 与成本统计，以及有界非阻塞事件投递。</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 17 个 PR</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 18 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — 计算轮询超时时只计入本次等待期间的暂停时间。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — 让 Python Agent 命令行调用保留声明的布尔参数默认值。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — 修复 Harness JSONL 解析错误切分 Unicode 分隔符，避免有效事件丢失。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — 让记忆事件客户端在自动重连时保留订阅过滤条件。</li>
