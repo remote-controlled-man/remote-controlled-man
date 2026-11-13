@@ -13,7 +13,7 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <table>
 <tr><td width="100%">
 <a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-en-dark-v17.svg"><img src="./assets/project-skillfit-en-light-v17.svg" width="470" alt="skillfit"></picture></a>
-<p>Compare agent Skills, rules, and MCP setups with paired A/B tests. Track task quality, trigger behavior, and token cost with replayable results and budget controls. Available on npm.</p>
+<p>Compare agent Skills, rules, and MCP setups with paired A/B tests. Track task quality, trigger behavior, and token cost; inspect local Skill usage with report and doctor. Available on npm.</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">Case study</a>  ·  <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/reference/metrics.md">Methodology</a></p>
 </td></tr>
 </table>
@@ -30,17 +30,21 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 ## Open-source contributions
 
-### 73 merged PRs · 17 upstream projects
+### 87 merged PRs · 22 upstream projects
 
-<sub>As of 2026-11-09</sub>
+<sub>As of 2026-11-13</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed login encoding, duplicate fallback requests, and V2EX timeout recovery. [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
+| **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI coding agent</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Aligned CLI setup guidance with the pinned Bun version. [#15544](https://github.com/cline/cline/pull/15544) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>Retrieval-augmented generation</sub> | **[2](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed JPEG dimension detection and the Redis startup eviction guard. [#4354](https://github.com/HKUDS/LightRAG/pull/4354) [#4334](https://github.com/HKUDS/LightRAG/pull/4334) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
-| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
-| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[2](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
+| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[2](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
+| **[Haystack](https://github.com/deepset-ai/haystack)**<br>[![Haystack stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/deepset-ai/haystack/stargazers)<br><sub>LLM and RAG orchestration framework</sub> | **[3](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed pipeline input isolation, concurrent BM25 updates, and snapshot restoration. [#13619](https://github.com/deepset-ai/haystack/pull/13619) [#13674](https://github.com/deepset-ai/haystack/pull/13674) [#13696](https://github.com/deepset-ai/haystack/pull/13696) |
+| **[RAG-Anything](https://github.com/HKUDS/RAG-Anything)**<br>[![RAG-Anything stars](https://img.shields.io/github/stars/HKUDS/RAG-Anything?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/RAG-Anything/stargazers)<br><sub>Multimodal RAG framework</sub> | **[5](https://github.com/HKUDS/RAG-Anything/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed multimodal ingestion retries, missing-media cache recovery, and image paths. [#470](https://github.com/HKUDS/RAG-Anything/pull/470) [#472](https://github.com/HKUDS/RAG-Anything/pull/472) [#464](https://github.com/HKUDS/RAG-Anything/pull/464) |
+| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>LLM command-line tool and Python library</sub> | **[3](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed endpoint additions corrupting flow-style YAML lists. [#1845](https://github.com/simonw/llm/pull/1845) |
 | **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP application framework</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed UTF-8 decoding of MCP App HTML for Chinese text and emoji. [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
 | **[gogcli](https://github.com/openclaw/gogcli)**<br>[![gogcli stars](https://img.shields.io/github/stars/openclaw/gogcli?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openclaw/gogcli/stargazers)<br><sub>Google Workspace CLI</sub> | **[1](https://github.com/openclaw/gogcli/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Rejected invalid Calendar time windows before querying events. [#1298](https://github.com/openclaw/gogcli/pull/1298) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API gateway</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added array-wildcard field deletion and fixed Gemini thought summaries and tool-call ordering. [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
@@ -50,8 +54,8 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 | **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[18](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 
 <details>
-<summary>View all 73 merged PRs across 17 projects</summary>
-<p>PR counts and project order checked on 2026-11-09. Projects are ordered by upstream stars; badges update automatically.</p>
+<summary>View all 87 merged PRs across 22 projects</summary>
+<p>PR counts and project order checked on 2026-11-13. Projects are ordered by upstream stars; badges update automatically.</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 5 merged</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/925">#925</a> — Used UTF-8 for interactive login child processes, preserving QR prompts on GBK consoles.</li>
@@ -60,6 +64,10 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/902">#902</a> — Retried V2EX TLS timeouts with the bounded curl fallback.</li>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — Prevented unavailable browser bridges from producing misleading empty session snapshots, with setup guidance.</li>
 </ul>
+<p><strong><a href="https://github.com/cline/cline">Cline</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/cline/cline/pull/15544">#15544</a> — Corrected the CLI development guide to reference the repository-pinned Bun version.</li>
+</ul>
 <p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 merged</strong></p>
 <ul>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — Reported unsupported source-only RAG scope instead of silently dropping it.</li>
@@ -67,6 +75,11 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — Kept composer tray menus visible and interactive above the input card.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — Bounded latest-message queries instead of fetching the full session history.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — Recognized vision support in Gemini model IDs with a models/ prefix.</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 2 merged</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4354">#4354</a> — Detected JPEG dimensions beyond large metadata segments.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4334">#4334</a> — Kept the Redis eviction-policy guard active after rejected startup.</li>
 </ul>
 <p><strong><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit</a> · 1 merged</strong></p>
 <ul>
@@ -85,16 +98,32 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/assafelovic/gpt-researcher/pull/2105">#2105</a> — Fell back when retriever content became blank after normalization.</li>
 <li><a href="https://github.com/assafelovic/gpt-researcher/pull/2104">#2104</a> — Preserved complementary web-research context when combining sources.</li>
 </ul>
-<p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 1 merged</strong></p>
+<p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 2 merged</strong></p>
 <ul>
+<li><a href="https://github.com/charmbracelet/crush/pull/4228">#4228</a> — Preserved CRLF lines in bang-mode output without breaking carriage-return progress updates.</li>
 <li><a href="https://github.com/charmbracelet/crush/pull/4235">#4235</a> — Kept browser-launcher output from overwriting the terminal UI.</li>
+</ul>
+<p><strong><a href="https://github.com/deepset-ai/haystack">Haystack</a> · 3 merged</strong></p>
+<ul>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13696">#13696</a> — Restored shared in-memory document stores to exact saved snapshots.</li>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13674">#13674</a> — Kept in-memory BM25 statistics consistent during concurrent mutations.</li>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13619">#13619</a> — Preserved caller input dictionaries across pipeline runs and streams.</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/RAG-Anything">RAG-Anything</a> · 5 merged</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/472">#472</a> — Reparsed cached documents when referenced media files were missing.</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/470">#470</a> — Kept failed multimodal ingestion retryable instead of marking it complete.</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/464">#464</a> — Preserved escaped and spaced image paths in retrieved context.</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/460">#460</a> — Prevented spaced image filenames from being truncated during retrieval.</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/458">#458</a> — Documented how to handle tables spanning PDF pages.</li>
 </ul>
 <p><strong><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/The-PR-Agent/pr-agent/pull/3639">#3639</a> — Created a missing changelog file when publishing generated updates.</li>
 </ul>
-<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 2 merged</strong></p>
+<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 3 merged</strong></p>
 <ul>
+<li><a href="https://github.com/simonw/llm/pull/1850">#1850</a> — Serialized YAML dates and timestamps in endpoint-list JSON output.</li>
 <li><a href="https://github.com/simonw/llm/pull/1857">#1857</a> — Supported pipe and process-substitution paths for CLI attachments.</li>
 <li><a href="https://github.com/simonw/llm/pull/1845">#1845</a> — Fixed invalid endpoint configuration when adding an item to a flow-style YAML list.</li>
 </ul>
@@ -144,6 +173,16 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <ul>
 <li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — Added OpenCode integration with lifecycle telemetry, token/cost accounting, and bounded non-blocking event delivery.</li>
 </ul>
+<p><strong><a href="https://github.com/jhaizhou-ops/S2Arm">S2Arm</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/jhaizhou-ops/S2Arm/pull/596">#596</a> — Updated contributor guidance to match local Xcode selection and capability checks.</li>
+</ul>
+<p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 merged</strong></p>
+<ul>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — Parsed complete numeric tool parameters instead of accepting truncated prefixes.</li>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
+</ul>
 <p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 18 merged</strong></p>
 <ul>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — Counted only pauses occurring during each polling wait when calculating its timeout.</li>
@@ -164,12 +203,6 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — Prevented rate-limiter jitter from changing the global random state.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — Skipped schema output directories when harness runs do not use a schema.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — Added provider availability checks before TypeScript agent harness runs.</li>
-</ul>
-<p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 merged</strong></p>
-<ul>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — Parsed complete numeric tool parameters instead of accepting truncated prefixes.</li>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
 </ul>
 <p><strong><a href="https://github.com/1firecracker/Agent-For-Exam">Agent-For-Exam</a> · 2 merged</strong></p>
 <ul>

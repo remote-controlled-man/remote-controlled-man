@@ -13,7 +13,7 @@
 <table>
 <tr><td width="100%">
 <a href="https://github.com/remote-controlled-man/skillfit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skillfit-zh-dark-v17.svg"><img src="./assets/project-skillfit-zh-light-v17.svg" width="470" alt="skillfit"></picture></a>
-<p>用配对 A/B 测试比较 Agent Skill、规则文件和 MCP 配置，记录任务质量、触发情况与 Token 成本。支持预算控制和结果回放，可从 npm 安装。</p>
+<p>用配对 A/B 测试比较 Agent Skill、规则文件和 MCP 配置，记录任务质量、触发情况与 Token 成本；也可在本地查看 Skill 使用情况。可从 npm 安装。</p>
 <p><a href="https://github.com/remote-controlled-man/skillfit/blob/main/benches/contrib/oss-mcp-use-utf8/README.md">复现案例</a>  ·  <a href="https://github.com/remote-controlled-man/skillfit/blob/main/docs/reference/metrics.md">评测方法</a></p>
 </td></tr>
 </table>
@@ -30,17 +30,21 @@
 
 ## 开源贡献
 
-### 73 个已合并 PR · 17 个上游项目
+### 87 个已合并 PR · 22 个上游项目
 
-<sub>截至 2026-11-09</sub>
+<sub>截至 2026-11-13</sub>
 
 | 项目 | PR | 代表贡献 |
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复登录编码、公共检索重复请求和 V2EX 超时回退。 [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
+| **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI 编程助手</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修正 CLI 开发指南中的 Bun 版本要求。 [#15544](https://github.com/cline/cline/pull/15544) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI 学习与研究平台</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>检索增强生成框架</sub> | **[2](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 JPEG 尺寸检测与 Redis 启动淘汰策略检查。 [#4354](https://github.com/HKUDS/LightRAG/pull/4354) [#4334](https://github.com/HKUDS/LightRAG/pull/4334) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI 交易 Agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Agent 最终回答重试、文档数值证据识别和期权波动率年化。 [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
-| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>终端 AI 编程助手</sub> | **[1](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 避免浏览器启动器输出覆盖终端界面。 [#4235](https://github.com/charmbracelet/crush/pull/4235) |
-| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>大模型命令行与 Python 工具</sub> | **[2](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复添加端点时破坏流式 YAML 列表的问题。 [#1845](https://github.com/simonw/llm/pull/1845) |
+| **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>终端 AI 编程助手</sub> | **[2](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 避免浏览器启动器输出覆盖终端界面。 [#4235](https://github.com/charmbracelet/crush/pull/4235) |
+| **[Haystack](https://github.com/deepset-ai/haystack)**<br>[![Haystack stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/deepset-ai/haystack/stargazers)<br><sub>LLM 与 RAG 编排框架</sub> | **[3](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复流水线输入隔离、BM25 并发更新与快照恢复。 [#13619](https://github.com/deepset-ai/haystack/pull/13619) [#13674](https://github.com/deepset-ai/haystack/pull/13674) [#13696](https://github.com/deepset-ai/haystack/pull/13696) |
+| **[RAG-Anything](https://github.com/HKUDS/RAG-Anything)**<br>[![RAG-Anything stars](https://img.shields.io/github/stars/HKUDS/RAG-Anything?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/RAG-Anything/stargazers)<br><sub>多模态 RAG 框架</sub> | **[5](https://github.com/HKUDS/RAG-Anything/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复多模态入库重试、媒体缓存恢复和图片路径处理。 [#470](https://github.com/HKUDS/RAG-Anything/pull/470) [#472](https://github.com/HKUDS/RAG-Anything/pull/472) [#464](https://github.com/HKUDS/RAG-Anything/pull/464) |
+| **[LLM](https://github.com/simonw/llm)**<br>[![LLM stars](https://img.shields.io/github/stars/simonw/llm?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/simonw/llm/stargazers)<br><sub>大模型命令行与 Python 工具</sub> | **[3](https://github.com/simonw/llm/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复添加端点时破坏流式 YAML 列表的问题。 [#1845](https://github.com/simonw/llm/pull/1845) |
 | **[MCP-Use](https://github.com/mcp-use/mcp-use)**<br>[![MCP-Use stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mcp-use/mcp-use/stargazers)<br><sub>MCP 应用框架</sub> | **[1](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 MCP App HTML 的 UTF-8 解码，让中文和 Emoji 正确显示。 [#2632](https://github.com/mcp-use/mcp-use/pull/2632) |
 | **[gogcli](https://github.com/openclaw/gogcli)**<br>[![gogcli stars](https://img.shields.io/github/stars/openclaw/gogcli?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openclaw/gogcli/stargazers)<br><sub>Google Workspace 命令行工具</sub> | **[1](https://github.com/openclaw/gogcli/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 在查询日历事件前拒绝无效的时间范围。 [#1298](https://github.com/openclaw/gogcli/pull/1298) |
 | **[AxonHub](https://github.com/looplj/axonhub)**<br>[![AxonHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/looplj/axonhub/stargazers)<br><sub>LLM API 网关</sub> | **[15](https://github.com/looplj/axonhub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 支持数组通配字段删除，修复 Gemini 多段推理内容与工具调用顺序。 [#2824](https://github.com/looplj/axonhub/pull/2824) [#2831](https://github.com/looplj/axonhub/pull/2831) [#2633](https://github.com/looplj/axonhub/pull/2633) |
@@ -50,8 +54,8 @@
 | **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[18](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复事件解析与记忆订阅重连。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
 
 <details>
-<summary>展开全部 73 个已合并 PR · 17 个项目</summary>
-<p>PR 数量和项目顺序核实于 2026-11-09。项目按上游 Star 排序，徽章数字会自动更新。</p>
+<summary>展开全部 87 个已合并 PR · 22 个项目</summary>
+<p>PR 数量和项目顺序核实于 2026-11-13。项目按上游 Star 排序，徽章数字会自动更新。</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 5 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/925">#925</a> — 让交互式登录子进程使用 UTF-8，避免 GBK 控制台无法输出二维码提示。</li>
@@ -60,6 +64,10 @@
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/902">#902</a> — 为 V2EX TLS 超时启用有时间限制的 curl 回退。</li>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/879">#879</a> — 避免浏览器桥接不可用时将失败的会话发现误记为空快照，并提供恢复提示。</li>
 </ul>
+<p><strong><a href="https://github.com/cline/cline">Cline</a> · 1 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/cline/cline/pull/15544">#15544</a> — 修正 CLI 开发指南，引导使用仓库锁定的 Bun 版本。</li>
+</ul>
 <p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — 明确提示不支持仅按来源文件限定 RAG 文本检索，避免静默丢失范围。</li>
@@ -67,6 +75,11 @@
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — 修复输入区遮挡工具菜单，保留定位与交互。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — 限制会话最新消息查询的读取范围，避免遍历整段历史。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — 修复带 models/ 前缀的 Gemini 模型 ID 的视觉能力识别。</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 2 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4354">#4354</a> — 修复大型元数据后的 JPEG 尺寸识别。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4334">#4334</a> — 避免 Redis 启动检查被拒绝后失效。</li>
 </ul>
 <p><strong><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit</a> · 1 个 PR</strong></p>
 <ul>
@@ -85,16 +98,32 @@
 <li><a href="https://github.com/assafelovic/gpt-researcher/pull/2105">#2105</a> — 在检索内容规范化后为空时启用回退处理。</li>
 <li><a href="https://github.com/assafelovic/gpt-researcher/pull/2104">#2104</a> — 合并来源时保留补充网页检索上下文，避免文本被破坏。</li>
 </ul>
-<p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 1 个 PR</strong></p>
+<p><strong><a href="https://github.com/charmbracelet/crush">Crush</a> · 2 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/charmbracelet/crush/pull/4228">#4228</a> — 修复命令输出中的 CRLF 换行显示，同时保留回车更新进度的行为。</li>
 <li><a href="https://github.com/charmbracelet/crush/pull/4235">#4235</a> — 避免浏览器启动器输出覆盖终端界面。</li>
+</ul>
+<p><strong><a href="https://github.com/deepset-ai/haystack">Haystack</a> · 3 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13696">#13696</a> — 让共享内存文档库准确恢复保存的快照。</li>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13674">#13674</a> — 修复并发读写时内存 BM25 统计不一致。</li>
+<li><a href="https://github.com/deepset-ai/haystack/pull/13619">#13619</a> — 避免流水线运行与流式执行修改调用方输入字典。</li>
+</ul>
+<p><strong><a href="https://github.com/HKUDS/RAG-Anything">RAG-Anything</a> · 5 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/472">#472</a> — 缓存引用的媒体文件丢失时重新解析文档。</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/470">#470</a> — 让多模态内容存储失败后保持可重试状态。</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/464">#464</a> — 修复检索结果中转义字符及空格图片路径的处理。</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/460">#460</a> — 避免检索时截断包含空格的图片文件名。</li>
+<li><a href="https://github.com/HKUDS/RAG-Anything/pull/458">#458</a> — 补充跨页 PDF 表格的处理说明。</li>
 </ul>
 <p><strong><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> · 1 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/The-PR-Agent/pr-agent/pull/3639">#3639</a> — 发布自动生成的更新日志时，支持创建尚不存在的目标文件。</li>
 </ul>
-<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 2 个 PR</strong></p>
+<p><strong><a href="https://github.com/simonw/llm">LLM</a> · 3 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/simonw/llm/pull/1850">#1850</a> — 让端点列表的 JSON 输出支持 YAML 日期和时间。</li>
 <li><a href="https://github.com/simonw/llm/pull/1857">#1857</a> — 支持通过管道和进程替换路径传入命令行附件。</li>
 <li><a href="https://github.com/simonw/llm/pull/1845">#1845</a> — 修复在流式 YAML 列表中添加端点时生成无效配置的问题。</li>
 </ul>
@@ -144,6 +173,16 @@
 <ul>
 <li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — 增加 OpenCode 集成，覆盖生命周期遥测、Token 与成本统计，以及有界非阻塞事件投递。</li>
 </ul>
+<p><strong><a href="https://github.com/jhaizhou-ops/S2Arm">S2Arm</a> · 1 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/jhaizhou-ops/S2Arm/pull/596">#596</a> — 更新贡献指南，使其与本机 Xcode 选择和能力检查一致。</li>
+</ul>
+<p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — 完整解析数值工具参数，避免前缀解析造成数值错误。</li>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — 让 jose 的测试转换规则兼容 Windows 与 POSIX 路径，修复相关测试无法加载的问题。</li>
+<li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — 修复 Windows 上 MCPB 安装的目录重命名失败，确保移动解压目录前目标路径不存在。</li>
+</ul>
 <p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 18 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — 计算轮询超时时只计入本次等待期间的暂停时间。</li>
@@ -164,12 +203,6 @@
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — 避免限流器的随机抖动影响全局随机数状态。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — 在不使用 Schema 的 Harness 运行中跳过 Schema 输出目录。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — 为 TypeScript Agent Harness 增加运行前的 Provider 可用性检查。</li>
-</ul>
-<p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 个 PR</strong></p>
-<ul>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — 完整解析数值工具参数，避免前缀解析造成数值错误。</li>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — 让 jose 的测试转换规则兼容 Windows 与 POSIX 路径，修复相关测试无法加载的问题。</li>
-<li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — 修复 Windows 上 MCPB 安装的目录重命名失败，确保移动解压目录前目标路径不存在。</li>
 </ul>
 <p><strong><a href="https://github.com/1firecracker/Agent-For-Exam">Agent-For-Exam</a> · 2 个 PR</strong></p>
 <ul>
