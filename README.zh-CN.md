@@ -30,16 +30,16 @@
 
 ## 开源贡献
 
-### 87 个已合并 PR · 22 个上游项目
+### 104 个已合并 PR · 22 个上游项目
 
-<sub>截至 2026-11-13</sub>
+<sub>截至 2026-11-16</sub>
 
 | 项目 | PR | 代表贡献 |
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复登录编码、公共检索重复请求和 V2EX 超时回退。 [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI 编程助手</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修正 CLI 开发指南中的 Bun 版本要求。 [#15544](https://github.com/cline/cline/pull/15544) |
-| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI 学习与研究平台</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复会话读取最新消息时的全量分页。 [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
-| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>检索增强生成框架</sub> | **[2](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 JPEG 尺寸检测与 Redis 启动淘汰策略检查。 [#4354](https://github.com/HKUDS/LightRAG/pull/4354) [#4334](https://github.com/HKUDS/LightRAG/pull/4334) |
+| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI 学习与研究平台</sub> | **[7](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 为停滞的模型流设置超时，并在写入前校验记忆操作。 [#2630](https://github.com/HKUDS/DeepTutor/pull/2630) [#2642](https://github.com/HKUDS/DeepTutor/pull/2642) |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>检索增强生成框架</sub> | **[8](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复队列调用取消、Anthropic 重试次数叠加和智谱客户端清理。 [#4333](https://github.com/HKUDS/LightRAG/pull/4333) [#4404](https://github.com/HKUDS/LightRAG/pull/4404) [#4427](https://github.com/HKUDS/LightRAG/pull/4427) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI 交易 Agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Agent 最终回答重试、文档数值证据识别和期权波动率年化。 [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 | **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>终端 AI 编程助手</sub> | **[2](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 避免浏览器启动器输出覆盖终端界面。 [#4235](https://github.com/charmbracelet/crush/pull/4235) |
 | **[Haystack](https://github.com/deepset-ai/haystack)**<br>[![Haystack stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/deepset-ai/haystack/stargazers)<br><sub>LLM 与 RAG 编排框架</sub> | **[3](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复流水线输入隔离、BM25 并发更新与快照恢复。 [#13619](https://github.com/deepset-ai/haystack/pull/13619) [#13674](https://github.com/deepset-ai/haystack/pull/13674) [#13696](https://github.com/deepset-ai/haystack/pull/13696) |
@@ -51,11 +51,11 @@
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI 记忆与知识库</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP 服务框架</sub> | **[8](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复资源模板批量注册及 JSON Schema 2019-09 验证。 [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent 可观测性与评测</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[18](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复事件解析与记忆订阅重连。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[27](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复取消清理、流式读取错误和记忆值类型。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>展开全部 87 个已合并 PR · 22 个项目</summary>
-<p>PR 数量和项目顺序核实于 2026-11-13。项目按上游 Star 排序，徽章数字会自动更新。</p>
+<summary>展开全部 104 个已合并 PR · 22 个项目</summary>
+<p>PR 数量和项目顺序核实于 2026-11-16。项目按上游 Star 排序，徽章数字会自动更新。</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 5 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/925">#925</a> — 让交互式登录子进程使用 UTF-8，避免 GBK 控制台无法输出二维码提示。</li>
@@ -68,16 +68,24 @@
 <ul>
 <li><a href="https://github.com/cline/cline/pull/15544">#15544</a> — 修正 CLI 开发指南，引导使用仓库锁定的 Bun 版本。</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 个 PR</strong></p>
+<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 7 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2642">#2642</a> — 在修改前拒绝跨行记忆操作，避免保存后条目丢失。</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2630">#2630</a> — 为停滞的 labeled-step 模型流设置空闲超时并关闭已获取的流。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — 明确提示不支持仅按来源文件限定 RAG 文本检索，避免静默丢失范围。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2336">#2336</a> — 修复 BM25 检索丢失带点编号的问题，并重建不兼容缓存。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — 修复输入区遮挡工具菜单，保留定位与交互。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — 限制会话最新消息查询的读取范围，避免遍历整段历史。</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — 修复带 models/ 前缀的 Gemini 模型 ID 的视觉能力识别。</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 2 个 PR</strong></p>
+<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 8 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4427">#4427</a> — 在对话和向量嵌入调用后关闭智谱 SDK 客户端，覆盖重试与取消。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4405">#4405</a> — 拒绝无效的段落分块 sidecar 内容，并提供出错位置。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4404">#4404</a> — 避免 Anthropic SDK 和外层逻辑叠加重试次数。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4402">#4402</a> — 在 Word 编号 ID 继承时正确处理直接设置的列表层级。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4338">#4338</a> — 在关闭开始时拒绝阻塞中的队列提交。</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4333">#4333</a> — 在调用方放弃等待时取消正在执行的队列调用。</li>
 <li><a href="https://github.com/HKUDS/LightRAG/pull/4354">#4354</a> — 修复大型元数据后的 JPEG 尺寸识别。</li>
 <li><a href="https://github.com/HKUDS/LightRAG/pull/4334">#4334</a> — 避免 Redis 启动检查被拒绝后失效。</li>
 </ul>
@@ -169,13 +177,13 @@
 <li><a href="https://github.com/punkpeye/fastmcp/pull/434">#434</a> — 停止服务时关闭框架持有的 stdio 会话与传输，覆盖取消执行和初始化失败时的清理。</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/433">#433</a> — 为 OpenAPI 扁平对象路径参数增加 simple 风格的序列化支持。</li>
 </ul>
-<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 个 PR</strong></p>
-<ul>
-<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — 增加 OpenCode 集成，覆盖生命周期遥测、Token 与成本统计，以及有界非阻塞事件投递。</li>
-</ul>
 <p><strong><a href="https://github.com/jhaizhou-ops/S2Arm">S2Arm</a> · 1 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/jhaizhou-ops/S2Arm/pull/596">#596</a> — 更新贡献指南，使其与本机 Xcode 选择和能力检查一致。</li>
+</ul>
+<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — 增加 OpenCode 集成，覆盖生命周期遥测、Token 与成本统计，以及有界非阻塞事件投递。</li>
 </ul>
 <p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 个 PR</strong></p>
 <ul>
@@ -183,8 +191,17 @@
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — 让 jose 的测试转换规则兼容 Windows 与 POSIX 路径，修复相关测试无法加载的问题。</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — 修复 Windows 上 MCPB 安装的目录重命名失败，确保移动解压目录前目标路径不存在。</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 18 个 PR</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 27 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — 在交付已缓存事件后保留 Go 流式读取错误。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — 在校验内联 base64 媒体前解码 URL 转义。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — 在 Python 记忆读取中保留存储的 JSON 值类型。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — 在等待审批时执行总超时限制。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — 修复 Go SDK 中 SSE 事件的数据字段解析。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — 在旧版向量删除请求中正确使用请求体指定的作用域。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — 让 TypeScript 记忆作用域 ID 与各自的作用域保持对应。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — 避免 AI 提示词增强修改调用方的对话历史。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — 在传播取消信号前完成 Harness 清理。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — 计算轮询超时时只计入本次等待期间的暂停时间。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — 让 Python Agent 命令行调用保留声明的布尔参数默认值。</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — 修复 Harness JSONL 解析错误切分 Unicode 分隔符，避免有效事件丢失。</li>

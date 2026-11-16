@@ -30,16 +30,16 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 ## Open-source contributions
 
-### 87 merged PRs · 22 upstream projects
+### 104 merged PRs · 22 upstream projects
 
-<sub>As of 2026-11-13</sub>
+<sub>As of 2026-11-16</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed login encoding, duplicate fallback requests, and V2EX timeout recovery. [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI coding agent</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Aligned CLI setup guidance with the pinned Bun version. [#15544](https://github.com/cline/cline/pull/15544) |
-| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[5](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded latest-message reads in long sessions. [#2042](https://github.com/HKUDS/DeepTutor/pull/2042) |
-| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>Retrieval-augmented generation</sub> | **[2](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed JPEG dimension detection and the Redis startup eviction guard. [#4354](https://github.com/HKUDS/LightRAG/pull/4354) [#4334](https://github.com/HKUDS/LightRAG/pull/4334) |
+| **[DeepTutor](https://github.com/HKUDS/DeepTutor)**<br>[![DeepTutor stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepTutor/stargazers)<br><sub>AI learning and research platform</sub> | **[7](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Bounded stalled model streams and validated memory operations before writing. [#2630](https://github.com/HKUDS/DeepTutor/pull/2630) [#2642](https://github.com/HKUDS/DeepTutor/pull/2642) |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)**<br>[![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/LightRAG/stargazers)<br><sub>Retrieval-augmented generation</sub> | **[8](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed abandoned queue calls, Anthropic retry multiplication, and Zhipu client cleanup. [#4333](https://github.com/HKUDS/LightRAG/pull/4333) [#4404](https://github.com/HKUDS/LightRAG/pull/4404) [#4427](https://github.com/HKUDS/LightRAG/pull/4427) |
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**<br>[![Vibe-Trading stars](https://img.shields.io/github/stars/HKUDS/Vibe-Trading?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/Vibe-Trading/stargazers)<br><sub>AI trading agent</sub> | **[5](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed final-answer retry, document-number grounding, and options-volatility annualization. [#2136](https://github.com/HKUDS/Vibe-Trading/pull/2136) [#2135](https://github.com/HKUDS/Vibe-Trading/pull/2135) [#1753](https://github.com/HKUDS/Vibe-Trading/pull/1753) |
 | **[Crush](https://github.com/charmbracelet/crush)**<br>[![Crush stars](https://img.shields.io/github/stars/charmbracelet/crush?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/charmbracelet/crush/stargazers)<br><sub>Terminal-based AI coding agent</sub> | **[2](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Kept browser-launcher output from overwriting the terminal UI. [#4235](https://github.com/charmbracelet/crush/pull/4235) |
 | **[Haystack](https://github.com/deepset-ai/haystack)**<br>[![Haystack stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/deepset-ai/haystack/stargazers)<br><sub>LLM and RAG orchestration framework</sub> | **[3](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed pipeline input isolation, concurrent BM25 updates, and snapshot restoration. [#13619](https://github.com/deepset-ai/haystack/pull/13619) [#13674](https://github.com/deepset-ai/haystack/pull/13674) [#13696](https://github.com/deepset-ai/haystack/pull/13696) |
@@ -51,11 +51,11 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[8](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[18](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed event parsing and memory subscription reconnects. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1148](https://github.com/Agent-Field/agentfield/pull/1148) [#1145](https://github.com/Agent-Field/agentfield/pull/1145) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[27](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed cancellation cleanup, streaming errors, and memory value types. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>View all 87 merged PRs across 22 projects</summary>
-<p>PR counts and project order checked on 2026-11-13. Projects are ordered by upstream stars; badges update automatically.</p>
+<summary>View all 104 merged PRs across 22 projects</summary>
+<p>PR counts and project order checked on 2026-11-16. Projects are ordered by upstream stars; badges update automatically.</p>
 <p><strong><a href="https://github.com/Panniantong/Agent-Reach">Agent Reach</a> · 5 merged</strong></p>
 <ul>
 <li><a href="https://github.com/Panniantong/Agent-Reach/pull/925">#925</a> — Used UTF-8 for interactive login child processes, preserving QR prompts on GBK consoles.</li>
@@ -68,16 +68,24 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <ul>
 <li><a href="https://github.com/cline/cline/pull/15544">#15544</a> — Corrected the CLI development guide to reference the repository-pinned Bun version.</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 5 merged</strong></p>
+<p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> · 7 merged</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2642">#2642</a> — Rejected multiline memory operations before they could corrupt stored entries.</li>
+<li><a href="https://github.com/HKUDS/DeepTutor/pull/2630">#2630</a> — Added idle timeouts to stalled labeled-step model streams and closed acquired streams.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2379">#2379</a> — Reported unsupported source-only RAG scope instead of silently dropping it.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2336">#2336</a> — Preserved dotted identifiers in BM25 retrieval and refreshed incompatible caches.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2288">#2288</a> — Kept composer tray menus visible and interactive above the input card.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/2042">#2042</a> — Bounded latest-message queries instead of fetching the full session history.</li>
 <li><a href="https://github.com/HKUDS/DeepTutor/pull/1588">#1588</a> — Recognized vision support in Gemini model IDs with a models/ prefix.</li>
 </ul>
-<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 2 merged</strong></p>
+<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a> · 8 merged</strong></p>
 <ul>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4427">#4427</a> — Closed Zhipu SDK clients after chat and embedding calls, including retries and cancellation.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4405">#4405</a> — Rejected invalid paragraph-chunk sidecar content with actionable error locations.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4404">#4404</a> — Avoided multiplying Anthropic SDK retry attempts.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4402">#4402</a> — Honored direct list levels when Word numbering IDs are inherited.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4338">#4338</a> — Rejected blocked queue submissions when shutdown begins.</li>
+<li><a href="https://github.com/HKUDS/LightRAG/pull/4333">#4333</a> — Cancelled in-flight queue calls when their callers abandon them.</li>
 <li><a href="https://github.com/HKUDS/LightRAG/pull/4354">#4354</a> — Detected JPEG dimensions beyond large metadata segments.</li>
 <li><a href="https://github.com/HKUDS/LightRAG/pull/4334">#4334</a> — Kept the Redis eviction-policy guard active after rejected startup.</li>
 </ul>
@@ -169,13 +177,13 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/punkpeye/fastmcp/pull/434">#434</a> — Closed framework-owned stdio sessions and transports on stop, including cancellation and setup-failure cleanup.</li>
 <li><a href="https://github.com/punkpeye/fastmcp/pull/433">#433</a> — Added OpenAPI simple-style serialization for flat object path parameters.</li>
 </ul>
-<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 merged</strong></p>
-<ul>
-<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — Added OpenCode integration with lifecycle telemetry, token/cost accounting, and bounded non-blocking event delivery.</li>
-</ul>
 <p><strong><a href="https://github.com/jhaizhou-ops/S2Arm">S2Arm</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/jhaizhou-ops/S2Arm/pull/596">#596</a> — Updated contributor guidance to match local Xcode selection and capability checks.</li>
+</ul>
+<p><strong><a href="https://github.com/openlit/openlit">OpenLIT</a> · 1 merged</strong></p>
+<ul>
+<li><a href="https://github.com/openlit/openlit/pull/1591">#1591</a> — Added OpenCode integration with lifecycle telemetry, token/cost accounting, and bounded non-blocking event delivery.</li>
 </ul>
 <p><strong><a href="https://github.com/samanhappy/mcphub">MCPHub</a> · 3 merged</strong></p>
 <ul>
@@ -183,8 +191,17 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
 </ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 18 merged</strong></p>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 27 merged</strong></p>
 <ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — Preserved Go streaming read errors after delivering buffered events.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — Decoded URL escapes in inline base64 media before validation.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — Preserved stored JSON value types in Python memory reads.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — Enforced the total timeout while waiting for approval.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — Parsed data fields correctly in Go SDK SSE events.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — Honored the scope in legacy vector-delete request bodies.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — Kept TypeScript memory scope IDs attached to their own scopes.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — Kept AI prompt augmentation from mutating caller history.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — Finished harness cleanup before propagating cancellation.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — Counted only pauses occurring during each polling wait when calculating its timeout.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — Preserved declared boolean defaults in Python agent CLI calls.</li>
 <li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — Preserved valid JSONL events containing Unicode separators in harness CLI output.</li>
