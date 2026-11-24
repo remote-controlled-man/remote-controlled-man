@@ -30,15 +30,16 @@
 
 ## 开源贡献
 
-### 123 个已合并 PR · 27 个上游项目
+### 128 个已合并 PR · 28 个上游项目
 
-<sub>截至 2026-11-22</sub>
+<sub>截至 2026-11-24</sub>
 
 | 项目 | PR | 代表贡献 |
 | :--- | :---: | :--- |
 | **[Transformers](https://github.com/huggingface/transformers)**<br>[![Transformers stars](https://img.shields.io/github/stars/huggingface/transformers?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/transformers/stargazers)<br><sub>模型架构与工具库</sub> | **[1](https://github.com/huggingface/transformers/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Qwen3 Omni 处理器中的音频参数传递。 [#50616](https://github.com/huggingface/transformers/pull/50616) |
 | **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)**<br>[![Hugging Face Hub stars](https://img.shields.io/github/stars/huggingface/huggingface_hub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/huggingface_hub/stargazers)<br><sub>模型与数据集平台客户端</sub> | **[1](https://github.com/huggingface/huggingface_hub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 获取仓库元数据失败时正确处理 force_download，避免静默使用缓存。 [#5351](https://github.com/huggingface/huggingface_hub/pull/5351) |
-| **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>MCP 的 Go SDK</sub> | **[3](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 让结构体 Schema 正确处理 JSON string 选项。 [#1251](https://github.com/mark3labs/mcp-go/pull/1251) 选择资源处理器前检查模板变量是否匹配。 [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
+| **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)**<br>[![llama-cpp-python stars](https://img.shields.io/github/stars/abetlen/llama-cpp-python?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/abetlen/llama-cpp-python/stargazers)<br><sub>本地模型推理的 Python 接口</sub> | **[2](https://github.com/abetlen/llama-cpp-python/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复磁盘缓存读取和上下文容量相关问题。 [#2436](https://github.com/abetlen/llama-cpp-python/pull/2436) [#2423](https://github.com/abetlen/llama-cpp-python/pull/2423) |
+| **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>MCP 的 Go SDK</sub> | **[6](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 让结构体 Schema 正确处理 JSON string 选项。 [#1251](https://github.com/mark3labs/mcp-go/pull/1251) 选择资源处理器前检查模板变量是否匹配。 [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
 | **[DeepCode](https://github.com/HKUDS/DeepCode)**<br>[![DeepCode stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepCode/stargazers)<br><sub>研究与编程 Agent</sub> | **[3](https://github.com/HKUDS/DeepCode/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 检测 Paper2Code 工具循环时比较调用参数。 [#299](https://github.com/HKUDS/DeepCode/pull/299) 让 Goal 终端界面测试与执行中的任务同步。 [#298](https://github.com/HKUDS/DeepCode/pull/298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复登录编码、公共检索重复请求和 V2EX 超时回退。 [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI 编程助手</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修正 CLI 开发指南中的 Bun 版本要求。 [#15544](https://github.com/cline/cline/pull/15544) |
@@ -58,8 +59,8 @@
 | **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复取消清理、流式读取错误和记忆值类型。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>展开全部 123 个已合并 PR · 27 个项目</summary>
-<p>PR 数量和项目顺序核实于 2026-11-22。项目顺序综合考虑相关性和生态影响力，Star 徽章会自动更新。</p>
+<summary>展开全部 128 个已合并 PR · 28 个项目</summary>
+<p>PR 数量和项目顺序核实于 2026-11-24。项目顺序由人工结合生态影响力、相关性和贡献内容调整；Star 徽章会自动更新。</p>
 <p><strong><a href="https://github.com/huggingface/transformers">Transformers</a> · 1 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/huggingface/transformers/pull/50616">#50616</a> — 修复 Qwen3 Omni 处理器中的音频参数传递。</li>
@@ -68,8 +69,16 @@
 <ul>
 <li><a href="https://github.com/huggingface/huggingface_hub/pull/5351">#5351</a> — 获取仓库元数据失败时正确处理 force_download，避免静默使用缓存。</li>
 </ul>
-<p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 3 个 PR</strong></p>
+<p><strong><a href="https://github.com/abetlen/llama-cpp-python">llama-cpp-python</a> · 2 个 PR</strong></p>
 <ul>
+<li><a href="https://github.com/abetlen/llama-cpp-python/pull/2436">#2436</a> — 根据原生上下文容量分配 Python 缓冲区。</li>
+<li><a href="https://github.com/abetlen/llama-cpp-python/pull/2423">#2423</a> — 读取磁盘缓存时保留缓存条目，以便后续复用。</li>
+</ul>
+<p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 6 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1341">#1341</a> — 修改工具参数后，正确使用当前值进行读取、绑定和序列化。</li>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1308">#1308</a> — 修复布尔 Schema 属性旁的 MCP 请求头绑定。</li>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1279">#1279</a> — 正确处理没有冒号的 SSE 字段。</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1251">#1251</a> — 让结构体 Schema 正确处理 JSON string 选项。</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1248">#1248</a> — 选择资源处理器前检查模板变量是否匹配。</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1246">#1246</a> — 保存 Schema 缓存前拒绝格式错误的 JSON。</li>

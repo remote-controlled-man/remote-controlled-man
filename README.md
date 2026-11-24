@@ -30,15 +30,16 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 ## Open-source contributions
 
-### 123 merged PRs · 27 upstream projects
+### 128 merged PRs · 28 upstream projects
 
-<sub>As of 2026-11-22</sub>
+<sub>As of 2026-11-24</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
 | **[Transformers](https://github.com/huggingface/transformers)**<br>[![Transformers stars](https://img.shields.io/github/stars/huggingface/transformers?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/transformers/stargazers)<br><sub>Model architectures and tooling</sub> | **[1](https://github.com/huggingface/transformers/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Forwarded audio options correctly in the Qwen3 Omni processor. [#50616](https://github.com/huggingface/transformers/pull/50616) |
 | **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)**<br>[![Hugging Face Hub stars](https://img.shields.io/github/stars/huggingface/huggingface_hub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/huggingface_hub/stargazers)<br><sub>Model and dataset hub client</sub> | **[1](https://github.com/huggingface/huggingface_hub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Honored force_download when repository metadata cannot be fetched. [#5351](https://github.com/huggingface/huggingface_hub/pull/5351) |
-| **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>Go SDK for MCP</sub> | **[3](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Honored JSON string options in struct schemas. [#1251](https://github.com/mark3labs/mcp-go/pull/1251) Rejected unmatched resource-template variables before handler selection. [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
+| **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)**<br>[![llama-cpp-python stars](https://img.shields.io/github/stars/abetlen/llama-cpp-python?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/abetlen/llama-cpp-python/stargazers)<br><sub>Python bindings for local inference</sub> | **[2](https://github.com/abetlen/llama-cpp-python/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed disk-cache reuse and context-capacity buffer sizing. [#2436](https://github.com/abetlen/llama-cpp-python/pull/2436) [#2423](https://github.com/abetlen/llama-cpp-python/pull/2423) |
+| **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>Go SDK for MCP</sub> | **[6](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Honored JSON string options in struct schemas. [#1251](https://github.com/mark3labs/mcp-go/pull/1251) Rejected unmatched resource-template variables before handler selection. [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
 | **[DeepCode](https://github.com/HKUDS/DeepCode)**<br>[![DeepCode stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepCode/stargazers)<br><sub>Research and coding agents</sub> | **[3](https://github.com/HKUDS/DeepCode/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Compared tool arguments when detecting Paper2Code loops. [#299](https://github.com/HKUDS/DeepCode/pull/299) Synchronized the Goal TUI test with an active turn. [#298](https://github.com/HKUDS/DeepCode/pull/298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed login encoding, duplicate fallback requests, and V2EX timeout recovery. [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI coding agent</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Aligned CLI setup guidance with the pinned Bun version. [#15544](https://github.com/cline/cline/pull/15544) |
@@ -58,8 +59,8 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 | **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed cancellation cleanup, streaming errors, and memory value types. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>View all 123 merged PRs across 27 projects</summary>
-<p>PR counts and project order checked on 2026-11-22. Projects are selected and ordered by relevance and ecosystem impact; star badges update automatically.</p>
+<summary>View all 128 merged PRs across 28 projects</summary>
+<p>PR counts and project order checked on 2026-11-24. Project order is curated by ecosystem impact, relevance, and contribution; star badges update automatically.</p>
 <p><strong><a href="https://github.com/huggingface/transformers">Transformers</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/huggingface/transformers/pull/50616">#50616</a> — Forwarded audio options correctly in the Qwen3 Omni processor.</li>
@@ -68,8 +69,16 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <ul>
 <li><a href="https://github.com/huggingface/huggingface_hub/pull/5351">#5351</a> — Honored force_download when repository metadata cannot be fetched.</li>
 </ul>
-<p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 3 merged</strong></p>
+<p><strong><a href="https://github.com/abetlen/llama-cpp-python">llama-cpp-python</a> · 2 merged</strong></p>
 <ul>
+<li><a href="https://github.com/abetlen/llama-cpp-python/pull/2436">#2436</a> — Sized Python buffers to the actual native context capacity.</li>
+<li><a href="https://github.com/abetlen/llama-cpp-python/pull/2423">#2423</a> — Kept disk-cache entries available after lookup.</li>
+</ul>
+<p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 6 merged</strong></p>
+<ul>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1341">#1341</a> — Used current decoded tool arguments for getters, binding, and serialization.</li>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1308">#1308</a> — Preserved MCP header bindings beside boolean schema properties.</li>
+<li><a href="https://github.com/mark3labs/mcp-go/pull/1279">#1279</a> — Handled SSE fields without a colon.</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1251">#1251</a> — Honored JSON string options in struct schemas.</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1248">#1248</a> — Rejected unmatched resource-template variables before handler selection.</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1246">#1246</a> — Rejected malformed JSON before saving schema caches.</li>
