@@ -30,16 +30,18 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 
 ## Open-source contributions
 
-### 128 merged PRs · 28 upstream projects
+### 130 merged PRs · 29 upstream projects
 
-<sub>As of 2026-11-24</sub>
+<sub>As of 2026-11-25</sub>
 
 | Project | PRs | Selected contributions |
 | :--- | :---: | :--- |
 | **[Transformers](https://github.com/huggingface/transformers)**<br>[![Transformers stars](https://img.shields.io/github/stars/huggingface/transformers?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/transformers/stargazers)<br><sub>Model architectures and tooling</sub> | **[1](https://github.com/huggingface/transformers/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Forwarded audio options correctly in the Qwen3 Omni processor. [#50616](https://github.com/huggingface/transformers/pull/50616) |
 | **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)**<br>[![Hugging Face Hub stars](https://img.shields.io/github/stars/huggingface/huggingface_hub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/huggingface_hub/stargazers)<br><sub>Model and dataset hub client</sub> | **[1](https://github.com/huggingface/huggingface_hub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Honored force_download when repository metadata cannot be fetched. [#5351](https://github.com/huggingface/huggingface_hub/pull/5351) |
 | **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)**<br>[![llama-cpp-python stars](https://img.shields.io/github/stars/abetlen/llama-cpp-python?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/abetlen/llama-cpp-python/stargazers)<br><sub>Python bindings for local inference</sub> | **[2](https://github.com/abetlen/llama-cpp-python/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed disk-cache reuse and context-capacity buffer sizing. [#2436](https://github.com/abetlen/llama-cpp-python/pull/2436) [#2423](https://github.com/abetlen/llama-cpp-python/pull/2423) |
+| **[RTK](https://github.com/rtk-ai/rtk)**<br>[![RTK stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/rtk-ai/rtk/stargazers)<br><sub>Token-efficient developer CLI</sub> | **[2](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Avoided starting an unused proxy daemon and clarified Remote Control compatibility. [#5101](https://github.com/rtk-ai/rtk/pull/5101) [#5098](https://github.com/rtk-ai/rtk/pull/5098) |
 | **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>Go SDK for MCP</sub> | **[6](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Honored JSON string options in struct schemas. [#1251](https://github.com/mark3labs/mcp-go/pull/1251) Rejected unmatched resource-template variables before handler selection. [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed cancellation cleanup, streaming errors, and memory value types. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 | **[DeepCode](https://github.com/HKUDS/DeepCode)**<br>[![DeepCode stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepCode/stargazers)<br><sub>Research and coding agents</sub> | **[3](https://github.com/HKUDS/DeepCode/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Compared tool arguments when detecting Paper2Code loops. [#299](https://github.com/HKUDS/DeepCode/pull/299) Synchronized the Goal TUI test with an active turn. [#298](https://github.com/HKUDS/DeepCode/pull/298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Web access for agents</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed login encoding, duplicate fallback requests, and V2EX timeout recovery. [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI coding agent</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Aligned CLI setup guidance with the pinned Bun version. [#15544](https://github.com/cline/cline/pull/15544) |
@@ -56,11 +58,10 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI memory and knowledge base</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Synced relation embeddings after resolution and corrected invalid-locator errors. [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP server framework</sub> | **[10](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Fixed batched resource-template registration and JSON Schema 2019-09 validation. [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent observability and evaluation</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added OpenCode lifecycle, token and cost telemetry. [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent backend framework</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | Added harness preflight and fixed cancellation cleanup, streaming errors, and memory value types. [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>View all 128 merged PRs across 28 projects</summary>
-<p>PR counts and project order checked on 2026-11-24. Project order is curated by ecosystem impact, relevance, and contribution; star badges update automatically.</p>
+<summary>View all 130 merged PRs across 29 projects</summary>
+<p>PR counts and project order checked on 2026-11-25. Project order is curated by ecosystem impact, relevance, and contribution; star badges update automatically.</p>
 <p><strong><a href="https://github.com/huggingface/transformers">Transformers</a> · 1 merged</strong></p>
 <ul>
 <li><a href="https://github.com/huggingface/transformers/pull/50616">#50616</a> — Forwarded audio options correctly in the Qwen3 Omni processor.</li>
@@ -74,6 +75,11 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/abetlen/llama-cpp-python/pull/2436">#2436</a> — Sized Python buffers to the actual native context capacity.</li>
 <li><a href="https://github.com/abetlen/llama-cpp-python/pull/2423">#2423</a> — Kept disk-cache entries available after lookup.</li>
 </ul>
+<p><strong><a href="https://github.com/rtk-ai/rtk">RTK</a> · 2 merged</strong></p>
+<ul>
+<li><a href="https://github.com/rtk-ai/rtk/pull/5101">#5101</a> — Skipped starting an unused RTK daemon when an alternate agent route is already configured.</li>
+<li><a href="https://github.com/rtk-ai/rtk/pull/5098">#5098</a> — Explained Claude Code Remote Control compatibility and recovery in proxy setup.</li>
+</ul>
 <p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 6 merged</strong></p>
 <ul>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1341">#1341</a> — Used current decoded tool arguments for getters, binding, and serialization.</li>
@@ -82,6 +88,37 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1251">#1251</a> — Honored JSON string options in struct schemas.</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1248">#1248</a> — Rejected unmatched resource-template variables before handler selection.</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1246">#1246</a> — Rejected malformed JSON before saving schema caches.</li>
+</ul>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 28 merged</strong></p>
+<ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1209">#1209</a> — Preserved component identities across concurrent registrations.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — Preserved Go streaming read errors after delivering buffered events.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — Decoded URL escapes in inline base64 media before validation.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — Preserved stored JSON value types in Python memory reads.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — Enforced the total timeout while waiting for approval.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — Parsed data fields correctly in Go SDK SSE events.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — Honored the scope in legacy vector-delete request bodies.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — Kept TypeScript memory scope IDs attached to their own scopes.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — Kept AI prompt augmentation from mutating caller history.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — Finished harness cleanup before propagating cancellation.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — Counted only pauses occurring during each polling wait when calculating its timeout.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — Preserved declared boolean defaults in Python agent CLI calls.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — Preserved valid JSONL events containing Unicode separators in harness CLI output.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — Retained memory event subscription filters across automatic reconnects.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — Stopped memory-event reconnects and discarded in-flight connections during shutdown.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — Formatted Go packages without recursively processing the same files twice.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — Drained accepted MCP work between tests to isolate shared concurrency state.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — URL-encoded memory subscription filters to preserve special characters.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1129">#1129</a> — Respected numeric Retry-After hints as minimum wait times.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1136">#1136</a> — Matched memory subscription keys literally, including regex characters.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1109">#1109</a> — Stopped retries for permanent execution-status callback failures.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1106">#1106</a> — Fixed missing-key detection in memory.exists() while preserving stored falsy values.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1105">#1105</a> — Reported provider-confirmed zero cost as known instead of unknown.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1100">#1100</a> — Made unrecognized async environment flags fall back to the actual class defaults.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1082">#1082</a> — Aligned AGENTFIELD_ASYNC boolean parsing with the repository's environment-variable conventions.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — Prevented rate-limiter jitter from changing the global random state.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — Skipped schema output directories when harness runs do not use a schema.</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — Added provider availability checks before TypeScript agent harness runs.</li>
 </ul>
 <p><strong><a href="https://github.com/HKUDS/DeepCode">DeepCode</a> · 3 merged</strong></p>
 <ul>
@@ -236,37 +273,6 @@ Email · [huangshuaidi666@gmail.com](mailto:huangshuaidi666@gmail.com)
 <li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — Parsed complete numeric tool parameters instead of accepting truncated prefixes.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — Matched both Windows and POSIX paths in the jose test transform so affected suites can load.</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — Fixed MCPB installation on Windows by keeping the rename destination absent before moving the extracted bundle.</li>
-</ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 28 merged</strong></p>
-<ul>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1209">#1209</a> — Preserved component identities across concurrent registrations.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — Preserved Go streaming read errors after delivering buffered events.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — Decoded URL escapes in inline base64 media before validation.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — Preserved stored JSON value types in Python memory reads.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — Enforced the total timeout while waiting for approval.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — Parsed data fields correctly in Go SDK SSE events.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — Honored the scope in legacy vector-delete request bodies.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — Kept TypeScript memory scope IDs attached to their own scopes.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — Kept AI prompt augmentation from mutating caller history.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — Finished harness cleanup before propagating cancellation.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — Counted only pauses occurring during each polling wait when calculating its timeout.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — Preserved declared boolean defaults in Python agent CLI calls.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — Preserved valid JSONL events containing Unicode separators in harness CLI output.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — Retained memory event subscription filters across automatic reconnects.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — Stopped memory-event reconnects and discarded in-flight connections during shutdown.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — Formatted Go packages without recursively processing the same files twice.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — Drained accepted MCP work between tests to isolate shared concurrency state.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — URL-encoded memory subscription filters to preserve special characters.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1129">#1129</a> — Respected numeric Retry-After hints as minimum wait times.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1136">#1136</a> — Matched memory subscription keys literally, including regex characters.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1109">#1109</a> — Stopped retries for permanent execution-status callback failures.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1106">#1106</a> — Fixed missing-key detection in memory.exists() while preserving stored falsy values.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1105">#1105</a> — Reported provider-confirmed zero cost as known instead of unknown.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1100">#1100</a> — Made unrecognized async environment flags fall back to the actual class defaults.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1082">#1082</a> — Aligned AGENTFIELD_ASYNC boolean parsing with the repository's environment-variable conventions.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — Prevented rate-limiter jitter from changing the global random state.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — Skipped schema output directories when harness runs do not use a schema.</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — Added provider availability checks before TypeScript agent harness runs.</li>
 </ul>
 <p><strong><a href="https://github.com/1firecracker/Agent-For-Exam">Agent-For-Exam</a> · 2 merged</strong></p>
 <ul>

@@ -30,16 +30,18 @@
 
 ## 开源贡献
 
-### 128 个已合并 PR · 28 个上游项目
+### 130 个已合并 PR · 29 个上游项目
 
-<sub>截至 2026-11-24</sub>
+<sub>截至 2026-11-25</sub>
 
 | 项目 | PR | 代表贡献 |
 | :--- | :---: | :--- |
 | **[Transformers](https://github.com/huggingface/transformers)**<br>[![Transformers stars](https://img.shields.io/github/stars/huggingface/transformers?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/transformers/stargazers)<br><sub>模型架构与工具库</sub> | **[1](https://github.com/huggingface/transformers/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复 Qwen3 Omni 处理器中的音频参数传递。 [#50616](https://github.com/huggingface/transformers/pull/50616) |
 | **[Hugging Face Hub](https://github.com/huggingface/huggingface_hub)**<br>[![Hugging Face Hub stars](https://img.shields.io/github/stars/huggingface/huggingface_hub?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/huggingface/huggingface_hub/stargazers)<br><sub>模型与数据集平台客户端</sub> | **[1](https://github.com/huggingface/huggingface_hub/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 获取仓库元数据失败时正确处理 force_download，避免静默使用缓存。 [#5351](https://github.com/huggingface/huggingface_hub/pull/5351) |
 | **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)**<br>[![llama-cpp-python stars](https://img.shields.io/github/stars/abetlen/llama-cpp-python?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/abetlen/llama-cpp-python/stargazers)<br><sub>本地模型推理的 Python 接口</sub> | **[2](https://github.com/abetlen/llama-cpp-python/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复磁盘缓存读取和上下文容量相关问题。 [#2436](https://github.com/abetlen/llama-cpp-python/pull/2436) [#2423](https://github.com/abetlen/llama-cpp-python/pull/2423) |
+| **[RTK](https://github.com/rtk-ai/rtk)**<br>[![RTK stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/rtk-ai/rtk/stargazers)<br><sub>开发命令输出压缩工具</sub> | **[2](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 避免已有代理路由时启动多余的守护进程，并说明 Remote Control 的兼容性。 [#5101](https://github.com/rtk-ai/rtk/pull/5101) [#5098](https://github.com/rtk-ai/rtk/pull/5098) |
 | **[MCP Go](https://github.com/mark3labs/mcp-go)**<br>[![MCP Go stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/mark3labs/mcp-go/stargazers)<br><sub>MCP 的 Go SDK</sub> | **[6](https://github.com/mark3labs/mcp-go/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 让结构体 Schema 正确处理 JSON string 选项。 [#1251](https://github.com/mark3labs/mcp-go/pull/1251) 选择资源处理器前检查模板变量是否匹配。 [#1248](https://github.com/mark3labs/mcp-go/pull/1248) |
+| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复取消清理、流式读取错误和记忆值类型。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 | **[DeepCode](https://github.com/HKUDS/DeepCode)**<br>[![DeepCode stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/HKUDS/DeepCode/stargazers)<br><sub>研究与编程 Agent</sub> | **[3](https://github.com/HKUDS/DeepCode/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 检测 Paper2Code 工具循环时比较调用参数。 [#299](https://github.com/HKUDS/DeepCode/pull/299) 让 Goal 终端界面测试与执行中的任务同步。 [#298](https://github.com/HKUDS/DeepCode/pull/298) |
 | **[Agent Reach](https://github.com/Panniantong/Agent-Reach)**<br>[![Agent Reach stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Panniantong/Agent-Reach/stargazers)<br><sub>Agent 联网工具</sub> | **[5](https://github.com/Panniantong/Agent-Reach/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复登录编码、公共检索重复请求和 V2EX 超时回退。 [#925](https://github.com/Panniantong/Agent-Reach/pull/925) [#916](https://github.com/Panniantong/Agent-Reach/pull/916) [#902](https://github.com/Panniantong/Agent-Reach/pull/902) |
 | **[Cline](https://github.com/cline/cline)**<br>[![Cline stars](https://img.shields.io/github/stars/cline/cline?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/cline/cline/stargazers)<br><sub>AI 编程助手</sub> | **[1](https://github.com/cline/cline/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修正 CLI 开发指南中的 Bun 版本要求。 [#15544](https://github.com/cline/cline/pull/15544) |
@@ -56,11 +58,10 @@
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)**<br>[![Basic Memory stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/basicmachines-co/basic-memory/stargazers)<br><sub>AI 记忆与知识库</sub> | **[2](https://github.com/basicmachines-co/basic-memory/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复关系解析后的向量索引同步与无效地址的错误处理。 [#1884](https://github.com/basicmachines-co/basic-memory/pull/1884) [#1885](https://github.com/basicmachines-co/basic-memory/pull/1885) |
 | **[FastMCP](https://github.com/punkpeye/fastmcp)**<br>[![FastMCP stars](https://img.shields.io/github/stars/punkpeye/fastmcp?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/punkpeye/fastmcp/stargazers)<br><sub>TypeScript MCP 服务框架</sub> | **[10](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 修复资源模板批量注册及 JSON Schema 2019-09 验证。 [#478](https://github.com/punkpeye/fastmcp/pull/478) [#485](https://github.com/punkpeye/fastmcp/pull/485) |
 | **[OpenLIT](https://github.com/openlit/openlit)**<br>[![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/openlit/openlit/stargazers)<br><sub>Agent 可观测性与评测</sub> | **[1](https://github.com/openlit/openlit/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 OpenCode 集成，接入生命周期、Token 与成本遥测。 [#1591](https://github.com/openlit/openlit/pull/1591) |
-| **[AgentField](https://github.com/Agent-Field/agentfield)**<br>[![AgentField stars](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%E2%98%85&color=496e64&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers)<br><sub>Agent 后端框架</sub> | **[28](https://github.com/Agent-Field/agentfield/pulls?q=is%3Apr+is%3Amerged+author%3Aremote-controlled-man)** | 增加 Harness 预检，修复取消清理、流式读取错误和记忆值类型。 [#1069](https://github.com/Agent-Field/agentfield/pull/1069) [#1180](https://github.com/Agent-Field/agentfield/pull/1180) [#1203](https://github.com/Agent-Field/agentfield/pull/1203) [#1199](https://github.com/Agent-Field/agentfield/pull/1199) |
 
 <details>
-<summary>展开全部 128 个已合并 PR · 28 个项目</summary>
-<p>PR 数量和项目顺序核实于 2026-11-24。项目顺序由人工结合生态影响力、相关性和贡献内容调整；Star 徽章会自动更新。</p>
+<summary>展开全部 130 个已合并 PR · 29 个项目</summary>
+<p>PR 数量和项目顺序核实于 2026-11-25。项目顺序由人工结合生态影响力、相关性和贡献内容调整；Star 徽章会自动更新。</p>
 <p><strong><a href="https://github.com/huggingface/transformers">Transformers</a> · 1 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/huggingface/transformers/pull/50616">#50616</a> — 修复 Qwen3 Omni 处理器中的音频参数传递。</li>
@@ -74,6 +75,11 @@
 <li><a href="https://github.com/abetlen/llama-cpp-python/pull/2436">#2436</a> — 根据原生上下文容量分配 Python 缓冲区。</li>
 <li><a href="https://github.com/abetlen/llama-cpp-python/pull/2423">#2423</a> — 读取磁盘缓存时保留缓存条目，以便后续复用。</li>
 </ul>
+<p><strong><a href="https://github.com/rtk-ai/rtk">RTK</a> · 2 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/rtk-ai/rtk/pull/5101">#5101</a> — 在已有其他代理路由时跳过无用的 RTK 守护进程。</li>
+<li><a href="https://github.com/rtk-ai/rtk/pull/5098">#5098</a> — 在代理设置中说明 Claude Code Remote Control 的兼容性及恢复方式。</li>
+</ul>
 <p><strong><a href="https://github.com/mark3labs/mcp-go">MCP Go</a> · 6 个 PR</strong></p>
 <ul>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1341">#1341</a> — 修改工具参数后，正确使用当前值进行读取、绑定和序列化。</li>
@@ -82,6 +88,37 @@
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1251">#1251</a> — 让结构体 Schema 正确处理 JSON string 选项。</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1248">#1248</a> — 选择资源处理器前检查模板变量是否匹配。</li>
 <li><a href="https://github.com/mark3labs/mcp-go/pull/1246">#1246</a> — 保存 Schema 缓存前拒绝格式错误的 JSON。</li>
+</ul>
+<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 28 个 PR</strong></p>
+<ul>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1209">#1209</a> — 在并发注册时保留组件身份。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — 在交付已缓存事件后保留 Go 流式读取错误。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — 在校验内联 base64 媒体前解码 URL 转义。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — 在 Python 记忆读取中保留存储的 JSON 值类型。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — 在等待审批时执行总超时限制。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — 修复 Go SDK 中 SSE 事件的数据字段解析。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — 在旧版向量删除请求中正确使用请求体指定的作用域。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — 让 TypeScript 记忆作用域 ID 与各自的作用域保持对应。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — 避免 AI 提示词增强修改调用方的对话历史。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — 在传播取消信号前完成 Harness 清理。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — 计算轮询超时时只计入本次等待期间的暂停时间。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — 让 Python Agent 命令行调用保留声明的布尔参数默认值。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — 修复 Harness JSONL 解析错误切分 Unicode 分隔符，避免有效事件丢失。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — 让记忆事件客户端在自动重连时保留订阅过滤条件。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — 停止记忆事件客户端关闭后的重连，并清理进行中的连接任务。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — 修复 Go 格式化命令重复遍历文件的问题。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — 在测试间等待已接受的 MCP 任务完成，避免共享并发状态互相影响。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — 对记忆订阅过滤参数进行 URL 编码，保留特殊字符。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1129">#1129</a> — 将数值型 Retry-After 作为最短等待时间，避免过早重试。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1136">#1136</a> — 按字面匹配记忆订阅键，避免特殊字符被误读为正则。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1109">#1109</a> — 让 Python SDK 对不可恢复的状态回调错误停止重试。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1106">#1106</a> — 修复 memory.exists() 对缺失键的判断，同时正确识别已存储的空值、零等假值。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1105">#1105</a> — 将 Provider 确认的零成本正确记为已知费用，避免误报为成本未知。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1100">#1100</a> — 让无法识别的异步布尔环境变量回退到实际类默认值，兼容子类配置。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1082">#1082</a> — 统一 AGENTFIELD_ASYNC 布尔环境变量的解析规则。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — 避免限流器的随机抖动影响全局随机数状态。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — 在不使用 Schema 的 Harness 运行中跳过 Schema 输出目录。</li>
+<li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — 为 TypeScript Agent Harness 增加运行前的 Provider 可用性检查。</li>
 </ul>
 <p><strong><a href="https://github.com/HKUDS/DeepCode">DeepCode</a> · 3 个 PR</strong></p>
 <ul>
@@ -236,37 +273,6 @@
 <li><a href="https://github.com/samanhappy/mcphub/pull/1392">#1392</a> — 完整解析数值工具参数，避免前缀解析造成数值错误。</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1315">#1315</a> — 让 jose 的测试转换规则兼容 Windows 与 POSIX 路径，修复相关测试无法加载的问题。</li>
 <li><a href="https://github.com/samanhappy/mcphub/pull/1314">#1314</a> — 修复 Windows 上 MCPB 安装的目录重命名失败，确保移动解压目录前目标路径不存在。</li>
-</ul>
-<p><strong><a href="https://github.com/Agent-Field/agentfield">AgentField</a> · 28 个 PR</strong></p>
-<ul>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1209">#1209</a> — 在并发注册时保留组件身份。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1203">#1203</a> — 在交付已缓存事件后保留 Go 流式读取错误。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1200">#1200</a> — 在校验内联 base64 媒体前解码 URL 转义。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1199">#1199</a> — 在 Python 记忆读取中保留存储的 JSON 值类型。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1198">#1198</a> — 在等待审批时执行总超时限制。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1197">#1197</a> — 修复 Go SDK 中 SSE 事件的数据字段解析。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1192">#1192</a> — 在旧版向量删除请求中正确使用请求体指定的作用域。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1189">#1189</a> — 让 TypeScript 记忆作用域 ID 与各自的作用域保持对应。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1186">#1186</a> — 避免 AI 提示词增强修改调用方的对话历史。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1180">#1180</a> — 在传播取消信号前完成 Harness 清理。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1163">#1163</a> — 计算轮询超时时只计入本次等待期间的暂停时间。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1151">#1151</a> — 让 Python Agent 命令行调用保留声明的布尔参数默认值。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1148">#1148</a> — 修复 Harness JSONL 解析错误切分 Unicode 分隔符，避免有效事件丢失。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1145">#1145</a> — 让记忆事件客户端在自动重连时保留订阅过滤条件。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1142">#1142</a> — 停止记忆事件客户端关闭后的重连，并清理进行中的连接任务。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1141">#1141</a> — 修复 Go 格式化命令重复遍历文件的问题。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1140">#1140</a> — 在测试间等待已接受的 MCP 任务完成，避免共享并发状态互相影响。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1137">#1137</a> — 对记忆订阅过滤参数进行 URL 编码，保留特殊字符。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1129">#1129</a> — 将数值型 Retry-After 作为最短等待时间，避免过早重试。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1136">#1136</a> — 按字面匹配记忆订阅键，避免特殊字符被误读为正则。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1109">#1109</a> — 让 Python SDK 对不可恢复的状态回调错误停止重试。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1106">#1106</a> — 修复 memory.exists() 对缺失键的判断，同时正确识别已存储的空值、零等假值。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1105">#1105</a> — 将 Provider 确认的零成本正确记为已知费用，避免误报为成本未知。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1100">#1100</a> — 让无法识别的异步布尔环境变量回退到实际类默认值，兼容子类配置。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1082">#1082</a> — 统一 AGENTFIELD_ASYNC 布尔环境变量的解析规则。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1078">#1078</a> — 避免限流器的随机抖动影响全局随机数状态。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1072">#1072</a> — 在不使用 Schema 的 Harness 运行中跳过 Schema 输出目录。</li>
-<li><a href="https://github.com/Agent-Field/agentfield/pull/1069">#1069</a> — 为 TypeScript Agent Harness 增加运行前的 Provider 可用性检查。</li>
 </ul>
 <p><strong><a href="https://github.com/1firecracker/Agent-For-Exam">Agent-For-Exam</a> · 2 个 PR</strong></p>
 <ul>
